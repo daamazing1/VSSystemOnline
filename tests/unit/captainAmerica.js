@@ -3,9 +3,9 @@ define(function(require){
     "use strict";
     var registerSuite = require("intern!object");
     var assert = require("intern/chai!assert");
-    var card = require("intern/dojo/node!lib/models/card");
-    var character = require("intern/dojo/node!lib/models/characterCard");
-    var mainCharacter = require("intern/dojo/node!lib/models/mainCharacterCard");
+    var card = require("intern/dojo/node!../lib/models/card");
+    var character = require("intern/dojo/node!../lib/models/characterCard");
+    var mainCharacter = require("intern/dojo/node!../lib/models/mainCharacterCard");
     var cap = null;
     registerSuite({
         name: "captainAmerica",
@@ -68,10 +68,17 @@ define(function(require){
         "Captain America should return Main Character text": function(){
             assert.strictEqual(cap.type, "Main Character", "Captain America type should be \"Main Character\".");
         },
-        "Don't allow new properties to be added to Captain America": function(){
-            cap.newProperty = "Hi there";
-            console.log(cap);
-            assert.strictEqual(cap.hasOwnProperty("newProperty"), false, "Captain America should not have \"newProperty\" property.");
+        "Captain America should have no experience counters": function(){
+            assert.strictEqual(cap.experienceCounters, 0, "Captain America should have zero experience counters");
+        },
+        "Captain America has gained an experience counter": function(){
+            cap.addExperienceCounter();
+            assert.strictEqual(cap.experienceCounters, 1, "Captain America has an experience counter.");
+        },
+        "Captain America has experience counters cleared": function(){
+            cap.addExperienceCounter();
+            cap.clearExperienceCounters();
+            assert.strictEqual(cap.experienceCounters, 0, "Captain America has no experience counters.");
         }
     });
 });
