@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="socket.io/socket.io.js"></script>
+        <script type="text/javascript" charset="utf-8">
+
+            var rooms = [];
+            var socket = io.connect("http://localhost");
+
+            socket.on("list-rooms", function(data){
+                rooms = data.rooms;
+                $("#rooms").html("");
+                $.each(rooms, function(key, value){
+                    $("#rooms")
+                        .append($("<option></option>")
+                        .attr("value", key)
+                        .text(value));
+                });
+            });
+
+            socket.on("joined-room", function(data){
+                $("#roomJoined").text(data.room);
+                $("#roomMessages").html("");
+            });
+
+            socket.on("room-message", function(data){
+                $("#roomMessages").append("<p>" + data + "</p>");
+            });
+
+            $(function(){
+                
+                $("#joinRoom").on("click", function(){
+                    var selectedRoom = $("#rooms option:selected").text();
+                    socket.emit("join-room", { room: selectedRoom });
+                });
+
+                $("#createNewRoom").on("click", function(){
+                    socket.emit("join-room", { room: $("#newRoomName").val()});
+                });
+
+                $("#send").on("click", function(){
+                    //Send message to room
+                    socket.emit("send-chat", { message: $("#roomMessage").val()});
+                    //clear text
+                    $("#roomMessage").val("");
+                });
+            });
+        </script>
+        <title>VS System Online</title>
+    </head>
+    <body>
+        <select id="rooms"></select>
+        <input type="button" id="joinRoom" value="Join Room" />
+        <input type="text" id="newRoomName" value="" />
+        <input type="button" id="createNewRoom" value="Create New Room" />
+
+        <div id="frame">
+            <h1 id="roomJoined"></h1>
+            <input id="roomMessage" type="text" /><input type="button" id="send" value="Send"/>
+            <div id="roomMessages"></div>
+
+        </div>
+    </body>
+</html>
