@@ -1,4 +1,8 @@
 /*eslint-env node*/
+var card = require("./card");
+var supportingCharacterCard = require("./supportingCharacterCard");
+var mainCharacterCard = require("./mainCharacterCard");
+
 var playerDef = {
     name: {
         value: null,
@@ -75,8 +79,57 @@ var playerDef = {
             }
             return this._resourceRow;
         }
+    },
+    _mainCharacter: {
+        value: null,
+        writable: true
+    },
+    mainCharacter: {
+        get: function(){
+            "use strict";
+            if(!this._mainCharacter){
+                this._mainCharacter = [null, null];
+            }
+            return this._mainCharacter;
+        },
+        set: function(value){
+            "use strict";
+            if(Object.getPrototypeOf(value) !== mainCharacterCard){
+                throw Error("Must be a mainCharacterCard object.");
+            }
+            //level is either 1 or 2...
+            if(value.level === 1 || value.level === 2){
+                this.mainCharacter[value.level - 1] = value;
+            }
+            else{
+                throw Error("Main character must have level defined.");
+            }
+        }
     }
-
-
 };
-module.exports = Object.create({}, playerDef);
+var player = Object.create({}, playerDef);
+player.addResource = function(resourceCard){
+    "use strict";
+    //must be a card, any card.
+    if(!card.isPrototypeOf(resourceCard)){
+        throw Error("Must be a valid card object");
+    }
+    this.resourceRow.push(resourceCard);
+};
+player.addFrontRowCharacter = function(frontCard){
+    "use strict";
+    //must be s supporting character card
+    if(Object.getPrototypeOf(frontCard) !== supportingCharacterCard){
+        throw Error("Must be a valid supporting character");
+    }
+    this.frontRow.push(frontCard);
+};
+player.addBackRowCharacter = function(backCard){
+    "use strict";
+    //must be s supporting character card
+    if(Object.getPrototypeOf(backCard) !== supportingCharacterCard){
+        throw Error("Must be a valid supporting character");
+    }
+    this.frontRow.push(backCard);
+};
+module.exports = player;

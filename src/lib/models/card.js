@@ -11,6 +11,12 @@ var cardDef = {
         enumerable: true,
         configurable: false,
         writable: true
+    },
+    isFaceDown: {
+        value: false,
+        enumerable: true,
+        configurable: false,
+        writable: true
     }
 };
 module.exports = Object.create({}, cardDef);

@@ -13,6 +13,8 @@
   },
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-develop-server": "^0.4.3"
+    "gulp-develop-server": "^0.4.3",
+    "gulp-intern": "0.0.3",
+    "gulp-shell": "^0.4.3"
   }
 }
