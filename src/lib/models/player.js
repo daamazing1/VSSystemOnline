@@ -1,7 +1,9 @@
 /*eslint-env node*/
 var card = require("./card");
+var characterCard = require("./characterCard");
 var supportingCharacterCard = require("./supportingCharacterCard");
 var mainCharacterCard = require("./mainCharacterCard");
+var enums = require("./enums");
 
 var playerDef = {
     name: {
@@ -116,20 +118,41 @@ player.addResource = function(resourceCard){
     }
     this.resourceRow.push(resourceCard);
 };
-player.addFrontRowCharacter = function(frontCard){
+player.addToKOPile = function(koCard){
     "use strict";
-    //must be s supporting character card
-    if(Object.getPrototypeOf(frontCard) !== supportingCharacterCard){
-        throw Error("Must be a valid supporting character");
+    if(!card.isPrototypeOf(koCard)){
+        throw Error("Must be a valid card");
     }
-    this.frontRow.push(frontCard);
+    this.koPile.push(koCard);
 };
-player.addBackRowCharacter = function(backCard){
+player.recruitCharacter = function(supportingCharacter, row){
     "use strict";
-    //must be s supporting character card
-    if(Object.getPrototypeOf(backCard) !== supportingCharacterCard){
+    if(Object.getPrototypeOf(supportingCharacter) !== supportingCharacterCard){
         throw Error("Must be a valid supporting character");
     }
-    this.frontRow.push(backCard);
+    if(!(row === enums.row.front || row === enums.row.back)){
+        throw Error("Must be recruited in either enums.row.front or enums.row.back");
+    }
+    this[row].push(supportingCharacter);
+    //todo: Add additional rule functionality around uniqueness and swarm abilities
+};
+player.moveCharacter = function(character, row){
+    "use strict";
+    if(!characterCard.isPrototypeOf(character)){
+        throw Error("Must be a valid character");
+    }
+    if(!(row === enums.row.front || row === enums.row.back)){
+        throw Error("Must be moved in either enums.row.front or enums.row.back");
+    }
+
+    ["frontRow", "backRow"].forEach(function(r){
+        for(var i = 0, j = this[r].length; i < j; i++){
+            if(this[r][i] === character){
+                this[r].splice(i, 1);
+                break;
+            }
+        }
+    }, this);
+    this[row].push(character);
 };
 module.exports = player;
