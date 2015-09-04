@@ -40,8 +40,10 @@ define({
 
 	// Non-functional test suite(s) to run in each browser
 	suites: [
-		"tests/unit/captainAmerica",
-		"tests/unit/playerTests"
+		"tests/unit/mainCharacterTests",
+		"tests/unit/playerTests",
+		"tests/unit/supportingCharacterTests",
+		"tests/unit/gameTests"
 	],
 
 	// Functional test suite(s) to execute against each browser once non-functional tests are completed

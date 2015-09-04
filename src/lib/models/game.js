@@ -52,7 +52,7 @@ var gameDef = {
 };
 
 var game = Object.create({}, gameDef);
-game.prototype.addPlayer = function(player){
+game.addPlayer = function(player){
     "use strict";
     //Only allow for two players
     if(this.players.length < 2){

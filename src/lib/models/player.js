@@ -118,6 +118,17 @@ player.addResource = function(resourceCard){
     }
     this.resourceRow.push(resourceCard);
 };
+player.removeResource = function(resource){
+    "use strict";
+    if(!card.isPrototypeOf(resource)){
+        throw Error("Must be a valid card object");
+    }
+    for(var i = 0, j = this.resourceRow.length; i < j; i++){
+        if(this.resourceRow[i] === resource){
+            this.resourceRow.splice(i, 1);
+        }
+    }
+}
 player.addToKOPile = function(koCard){
     "use strict";
     if(!card.isPrototypeOf(koCard)){
@@ -155,4 +166,27 @@ player.moveCharacter = function(character, row){
     }, this);
     this[row].push(character);
 };
+player.stunCharacter = function(character){
+    "use strict";
+    if(!characterCard.isPrototypeOf(character)){
+        throw Error("Must be a valid character");
+    }
+    //stun the character and then give him a wound.
+    character.stunned = true;
+    character.wounds++;
+}
+player.koCharacter = function(character){
+    "use strict";
+    if(!characterCard.isPrototypeOf(character)){
+        throw Error("Must be a valid character");
+    }
+    ["frontRow", "backRow"].forEach(function(r){
+        for(var i = 0, j = this[r].length; i < j; i++){
+            if(this[r][i] === character){
+                var found = this[r].splice(i, 1); //remove the character from the field
+                break;
+            }
+        }
+    }, this);
+}
 module.exports = player;

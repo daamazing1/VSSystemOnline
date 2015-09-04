@@ -73,10 +73,13 @@ define(function(require){
                 var loki = Object.create(supportCharacter);
                 loki.number = "XXX-009";
                 loki.name = "Loki";
-                assert.throw(function(){ player1.mainCharacter = loki;}, "Must be a mainCharacterCard object.");
+                assert.throw(function(){ player1.mainCharacter = loki; }, "Must be a mainCharacterCard object.");
             },
             "Add a invalid resource throws an error": function(){
-                assert.throw(function() {player1.addResource(player);}, "Must be a valid card object");
+                assert.throw(function() {player1.addResource(player); }, "Must be a valid card object");
+            },
+            "Remove a invalid resource throws an error": function(){
+                assert.throw(function() {player1.removeResource(player); }, "Must be a valid card object");
             },
             "Add a invalid front row character throws an error": function(){
                 assert.throw(function(){player1.recruitCharacter(cap, enums.row.front); }, "Must be a valid supporting character");
@@ -96,6 +99,18 @@ define(function(require){
                 assert.strictEqual(player1.resourceRow.length, 2, "Player should have 2 resources in the resource row");
                 assert.strictEqual(player1.resourceRow[0], redSkull, "Player should have Red Skull and Loki in the resource row");
                 assert.strictEqual(player1.resourceRow[1], loki, "Player should have Red Skull and Loki in the resource row");
+            },
+            "Remove a valid resource": function(){
+                var redSkull = Object.create(supportCharacter);
+                redSkull.number = "XXX-001";
+                redSkull.name = "Red Skull";
+                var loki = Object.create(supportCharacter);
+                loki.number = "XXX-009";
+                loki.name = "Loki";
+                player1.addResource(redSkull);
+                player1.addResource(loki);
+                player1.removeResource(redSkull);
+                assert.deepEqual(player1.resourceRow, [loki], "Resource row has the correct cards after removal");
             },
             "Add a valid front row character": function(){
                 var redSkull = Object.create(supportCharacter);
@@ -153,6 +168,48 @@ define(function(require){
             },
             "Moving invalid row throws error": function(){
                 assert.throw(function(){player1.moveCharacter(cap, "I guess"); }, "Must be moved in either enums.row.front or enums.row.back");
+            },
+            "KO none character card throws error": function(){
+                assert.throw(function(){player1.koCharacter(player1); }, "Must be a valid character");
+            },
+            "KO character removes the character from the board":function() {
+                var redSkull = Object.create(supportCharacter);
+                redSkull.number = "XXX-001";
+                redSkull.name = "Red Skull";
+                player1.recruitCharacter(redSkull, enums.row.front);
+                var loki = Object.create(supportCharacter);
+                loki.number = "XXX-009";
+                loki.name = "Loki";
+                player1.recruitCharacter(loki, enums.row.front);
+                var gamora = Object.create(supportCharacter);
+                gamora.number = "XXX-009";
+                gamora.name = "Gamora";
+                player1.recruitCharacter(gamora, enums.row.back);
+                assert.deepEqual(player1.frontRow, [redSkull, loki], "The correct cards are in the back row");
+                assert.deepEqual(player1.backRow, [gamora], "The correct cards are in the back row");
+                player1.koCharacter(loki);
+                assert.deepEqual(player1.frontRow, [redSkull], "The correct cards are in the back row");
+                assert.deepEqual(player1.backRow, [gamora], "The correct cards are in the back row");
+            },
+            "Stunning character changes character status and adds wound": function(){
+                var redSkull = Object.create(supportCharacter);
+                redSkull.number = "XXX-001";
+                redSkull.name = "Red Skull";
+                player1.recruitCharacter(redSkull, enums.row.front);
+                var loki = Object.create(supportCharacter);
+                loki.number = "XXX-009";
+                loki.name = "Loki";
+                player1.recruitCharacter(loki, enums.row.front);
+                var gamora = Object.create(supportCharacter);
+                gamora.number = "XXX-009";
+                gamora.name = "Gamora";
+                player1.recruitCharacter(gamora, enums.row.back);
+                player1.stunCharacter(loki);
+                assert.strictEqual(loki.stunned, true, "Character should be stunned");
+                assert.strictEqual(loki.wounds, 1, "Character should have a wound");
+            },
+            "Stunning invalid card throws an error": function(){
+                assert.throw(function(){player1.stunCharacter(player1); }, "Must be a valid character");
             }
         };
     });

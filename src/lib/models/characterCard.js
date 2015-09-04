@@ -93,7 +93,6 @@ characterCard.addCounter = function(val){
     "use strict";
     this.counters.push(val);
 };
-
 characterCard.removeCounter = function(val){
     "use strict";
     //search for the right type of counter.
