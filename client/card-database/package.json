@@ -1,0 +1,11 @@
+{
+  "name": "vs-2pcg-database",
+  "version": "1.0.0",
+  "description": "Upperdeck VS System 2PCG card database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Diokmedjian",
+  "license": "ISC"
+}

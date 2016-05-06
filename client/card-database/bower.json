@@ -1,0 +1,24 @@
+{
+  "name": "vs-2pcg-database",
+  "description": "Upperdeck VS System 2PCG card database.",
+  "main": "index.js",
+  "authors": [
+    "Alex Diokmedjian"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/daamazing1/VSSystemOnline",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.5",
+    "bootstrap-sass": "^3.3.6",
+    "angular-ui-router": "^0.2.18",
+    "angular-bootstrap": "^1.3.2"
+  }
+}

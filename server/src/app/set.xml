@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="The Marvel Battles" id="64f2e832-f500-4586-a699-5041be922fc0"
+     gameId="d9d22574-b64d-4f4b-9726-092d35b778c9" gameVersion="1.3" version="1.3">
+<cards>
+   <card id="a6bdf8ed-9376-4a23-8545-7b689bdec894" name="Captain America ">
+      <property name="Card Number" value="MNB-001" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: This turn, enemy characters can't strike back during team attacks. Side By Side Level Up (3) - When Cap team attacks and stuns an enemy character, he gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="7224c383-c653-4d71-bdd0-4c9c7e7a305d" name="Captain America ">
+      <property name="Card Number" value="MNB-002" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: This turn, enemy characters can't strike back during team attacks. Leader of the Avengers Main [Academy]: Put a +1/+1 counter on each character on your side." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="8b2e98eb-677a-4cbd-87ed-0d745f16ba70" name="Hulk ">
+      <property name="Card Number" value="MNB-003" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: Put a +1/+1 counter on Hulk for each wound he has. You Won't Like Him When He's Angry Level Up (4) - When Hulk gets stunned, he gains an XP." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="98fc783b-5f7c-483f-9cdd-94cbfdb4af91" name="Hulk ">
+      <property name="Card Number" value="MNB-004" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: Put a +1/+1 counter on Hulk for each wound he has. Banner's Influence Build [Academy]: Remove each +1/+1 counter from Hulk. Draw that many cards." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="abbc0a03-c883-48e9-b63b-b1e95741be84" name="Iron Man ">
+      <property name="Card Number" value="MNB-005" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put a -1/-1 counter on an enemy character. You may push it to its back row. Armor Mk 3 Level Up (3) - When a character on your side Powers Up, Iron Man gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="7b56e953-67a1-480d-8e68-5ec66058916c" name="Iron Man ">
+      <property name="Card Number" value="MNB-006" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put a -1/-1 counter on an enemy character. You may push it to its back row. Upgraded Armor Main [Academy]: Put three +1/+1 counters on a character on your side that already has a +1/+1 counter." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="35329dc6-faff-45a7-8ff7-fe6b6637dc3b" name="Spider-Man ">
+      <property name="Card Number" value="MNB-007" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Fortress]: Spider-Man gets +1/+1 this combat for each face-up supporting character on your side. Great Responsibility Level Up (8) - At the end of your turn, Spidey gains 1 XP for each face-up supporting character on your side." />
+      <property name="Health" value="5" />
+   </card>
+<card id="c05f0aa9-3750-496b-9a71-df7572a3f8e5" name="Spider-Man ">
+      <property name="Card Number" value="MNB-008" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Fortress]: Spider-Man gets +1/+1 this combat for each face-up supporting character on your side. Friendly Neighbor [Any Turn] Any Combat [Academy]: Remove a defender on your side from combat and replace it with Spider-Man. Switch their positions." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="824a1b5d-78b8-4901-834b-bf4eef78698c" name="Ant Man ">
+      <property name="Card Number" value="MNB-009" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="The first time he's attacked each turn, you may cancel the combat. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="224b300c-f79d-4bc5-9c44-0b9d7a75f09b" name="Black Widow ">
+      <property name="Card Number" value="MNB-010" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When she appears, put a -1/-1 counter on an enemy character. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="7ccb5261-8e91-4206-9d68-b68b6c867916" name="Black Panther ">
+      <property name="Card Number" value="MNB-011" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="During melee combat, he strikes before enemy characters. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="e8c3d29f-8dfa-4453-ab3e-61cbbc5803b5" name="Daredevil ">
+      <property name="Card Number" value="MNB-012" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="He can't be ranged attacked. Fearless While attacking a main character, Daredevil strikes with double his ATK." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="eb5d1ca1-b7ab-47bb-a84e-9e906fe26d3d" name="Hawkeye ">
+      <property name="Card Number" value="MNB-013" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: The next time Hawkeye attacks during this turn, he gets +3/+0. If it's a ranged attack, [Ranged] enemy characters can't strike back at him. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="23bf23e8-5b69-497b-bcd5-16862f6422ce" name="Nick Fury ">
+      <property name="Card Number" value="MNB-014" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Put the top card of your deck face down into your resource row. If it's a location, you may turn it face up. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="001990bd-b304-455f-b057-ff03ba250eac" name="Captain America ">
+      <property name="Card Number" value="MNB-015" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="While he's team attacking, you choose who the defender strikes back against. Inspire When another character appears on your side, put a +1/+1 counter on it." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="8f28ac59-9905-488a-be2d-e6622a3646b6" name="Spider-Man ">
+      <property name="Card Number" value="MNB-016" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="He can't be ranged attacked. Websling Main [Training Ground]: Pull a back row enemy character to its front row." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="f735a4e9-7de1-4938-aa92-538cffecba8e" name="Ms. Marvel ">
+      <property name="Card Number" value="MNB-017" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put a +1/+1 counter on Ms. Marvel for each other [Ranged] character on your side. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="317cc48e-e29a-425f-bbac-85a736ad372f" name="Luke Cage ">
+      <property name="Card Number" value="MNB-018" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Fortress]: If Luke Cage gets stunned during this combat, he doesn't receive a wound. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="82eaa1b2-39e9-4d4c-a7a1-07c10a9a8da9" name="Dr. Strange ">
+      <property name="Card Number" value="MNB-019" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Choose a character and turn all of its +1/+1 counters into -1/-1 counters or vice versa. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="ad931942-601e-431c-9dbb-ae4a7324fa86" name="Iron Man ">
+      <property name="Card Number" value="MNB-020" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When he appears, you may turn one of your face-down locations face up. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="70ab7b8b-2a84-4c7d-8901-e6924cca63bd" name="Thor ">
+      <property name="Card Number" value="MNB-021" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put three -1/-1 counters on an enemy character. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="5fe6128a-82d7-422c-be5c-ec48100377d5" name="Hulk ">
+      <property name="Card Number" value="MNB-022" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: If Hulk has a wound, put seven +1/+1 counters on him. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="f96e18d5-4eed-4e63-a3b3-8c0dc3f0ef78" name="Earth's Mightiest Heroes ">
+      <property name="Card Number" value="MNB-023" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Choose a character to get +2/+2 this combat " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="eedf7542-c1ed-4e33-8d02-0d03f4d7c2b9" name="Think Again ">
+      <property name="Card Number" value="MNB-024" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Cancel the combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="a43940e4-0a06-4c49-afc4-d18d888d4468" name="Stark Tech ">
+      <property name="Card Number" value="MNB-025" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main: Put a +1/+1 counter on a character on your side. It gains [Ranged] this turn. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="e62b51c3-3fcb-4d9a-9caf-d0e8c7780cd5" name="Avengers Mansion ">
+      <property name="Card Number" value="MNB-026" />
+      <property name="Type" value="Special Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Avengers" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] or [Academy] or [Fortress] or [Training Ground] for an [Avengers] character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="30ebe0c6-53f6-4a02-8f7f-acf91f4e70d2" name="Storm ">
+      <property name="Card Number" value="MNB-027" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put two -1/-1 counters divided as you choose on up to two enemy characters. Children of the Atom Level Up (3) - When you activate a Super Power, Storm gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+<card id="d8712fff-9fa6-4014-af23-b51909b40d46" name="Storm ">
+      <property name="Card Number" value="MNB-028" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put two -1/-1 counters divided as you choose on up to two enemy characters. Wind Storm Main [Training Ground]: Characters on your side gain [Flight] this turn." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="d8c929ec-917e-4e36-8a3c-060850824060" name="Wolverine ">
+      <property name="Card Number" value="MNB-029" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Training Ground]: Wolverine gets +3/+0 this combat. Best At What He Does Level Up (3) - When Wolverine makes a solo attack and stuns an enemy character, he gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="7e327173-8f38-43a7-afe2-1767379309a7" name="Wolverine ">
+      <property name="Card Number" value="MNB-030" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="8" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Training Ground]: Wolverine gets +3/+0 this combat. Healing Factor Main [Fortress]: Heal a wound from Wolverine." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="222ca2fe-cc66-4a8d-b795-e79e2c17254b" name="Deadpool ">
+      <property name="Card Number" value="MNB-031" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: Characters on your side are Lethal this turn (When they stun a supporting character, KO that character.) Man, there's no one left to kill. Level Up (3) - At the end of your turn, if all of an enemy player's characters are stunned, Deadpool gains an XP." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="3b1c9df5-f555-40aa-9482-a32b7584010c" name="Deadpool ">
+      <property name="Card Number" value="MNB-032" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: Characters on your side are Lethal this turn (When they stun a supporting character, KO that character.) Oh, there's someone! Hi there! Main [Academy]: For the rest of the game, Deadpool can attack enemy players. ( A player can only be attacked if all of its characters are stunned. While defending, the player is 0/1, has 1[Wound], and counts as a supporting character." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="d8712fff-9fa6-4014-af23-b51909b40d77" name="Professor X ">
+      <property name="Card Number" value="MNB-033" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Laboratory]: Reveal the top five cards of your deck. Put a character from among them into your hand and the rest on the bottom in any order. A Dream Of Peace Level Up (4) - At the end of your turn, if you didn't make any attacks this turn, Professor X gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="e183d119-8849-4cf7-9dcf-6bf7ae822a96" name="Professor X ">
+      <property name="Card Number" value="MNB-034" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Laboratory]: Reveal the top five cards of your deck. Put a character from among them into your hand and the rest on the bottom in any order. Mental Domination Main [Academy]: Ready a face-up enemy cahracter and move it to your front or back row. At the end of your turn, move it back." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="6ba5e4bb-d836-4950-bdde-b575b65e33bb" name="Iceman ">
+      <property name="Card Number" value="MNB-035" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When he appears, exhaust a character. It can't ready during it's next turn. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="1dd72d37-2ec6-4356-b959-a859a71db8cb" name="Magik ">
+      <property name="Card Number" value="MNB-036" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Put Magik and up to one other supporting character on your side into its owner's hand. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="7f0e7034-be87-471e-b8fd-8855b8f449e5" name="Hope Summers ">
+      <property name="Card Number" value="MNB-037" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Hope has all the powers of each other face-up X-Men supporting character on your side. (This includes [Flight], [Ranged], and appears powers like Iceman's Freeze.) " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="dad2120d-bef7-431a-8abf-85c1a53d4cd7" name="Cyclops ">
+      <property name="Card Number" value="MNB-038" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="While he's team attacking, you choose who the defender strikes back against. Battle Tactics Main [Training Ground]: Move a character on your side to your front or back row." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="4fa6a2e4-8c37-46c8-8ff6-3a8be9fa2d59" name="Deadpool ">
+      <property name="Card Number" value="MNB-039" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="He can team attack with any main character. Can't Keep a Bad Man Down Build [Fortress]: If Deadpool is in your KO pile, put him into play." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="cd4b7fba-2763-4bfe-997f-24bc1ecb3c23" name="Namor ">
+      <property name="Card Number" value="MNB-040" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="While he's attacking a back row character, it can't strike back at him. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="88e8ac2d-c4c7-4345-b62d-1cdf42931bd9" name="Gambit ">
+      <property name="Card Number" value="MNB-041" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Discard a card that costs at least as much as a face-up enemy supporting character and stun that character. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="5e85bd29-d9c3-4b4e-9e21-e964f752c28a" name="Storm ">
+      <property name="Card Number" value="MNB-042" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put a -1/-1 counter on each enemy character. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="b36aa6ae-ff6a-4e6a-ae21-da1bf1f8f7a9" name="Beast ">
+      <property name="Card Number" value="MNB-043" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="During melee combat, he strikes before enemy characters. Genius At the start of your turn, if he's face-up, you may draw a card." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="be740c86-ee8f-4d93-8d6e-8f5ce8ad005a" name="Wovlerine ">
+      <property name="Card Number" value="MNB-044" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When he attacks, put a +1/+1 counter on him. Regeneration At the start of your turn, if he's face-up, heal a wound from him." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="7718f495-e1d3-4a2e-bc61-fda42f3a1f63" name="Cable ">
+      <property name="Card Number" value="MNB-045" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Combat [Training Ground]: At the end of this combat, stun each enemy character that survived the combat. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="d6736dcf-6ccb-4ab7-b3cf-09349095c4cc" name="Colossus ">
+      <property name="Card Number" value="MNB-046" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When he appears, choose another character on your side to gain [Flight] this turn. Organic Steel [Any Turn] Combat [Fortress]: Colossus gets +5/+5 this combat." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="a775f348-63ea-440d-ad34-4a014c161ee2" name="Emma Frost ">
+      <property name="Card Number" value="MNB-047" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When she appears, you may have a player discard their hand, then draw that many cards. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="bf20b6b8-2cd6-4016-9ec6-9087600064a7" name="Professor X ">
+      <property name="Card Number" value="MNB-048" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Ready a face-up enemy supporting character and move it to your side. At the end of your turn, move it back. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="0e3d057d-ab33-4a28-8687-6fc18f9b9d66" name="X-Factor ">
+      <property name="Card Number" value="MNB-049" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main: Ready a character " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="6ec24ecb-97ca-4e95-a6f6-dbe4945c0ac5" name="Squad Tactics ">
+      <property name="Card Number" value="MNB-050" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Put a +1/+1 counter on each character on your side in the combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="d8c929ec-917e-4e36-8a3c-060850824666" name="Uncanny Defense ">
+      <property name="Card Number" value="MNB-051" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Remove a defender on your side from combat and replace it with a different character on your side. Switch their positions. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="1275cbc3-cfb6-47f0-9cb9-5fdf323567b7" name="School For Gifted Youngsters ">
+      <property name="Card Number" value="MNB-052" />
+      <property name="Type" value="Special Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="X-Men" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] or [Academy] or [Fortress] or [Training Ground] for an [X-Men] character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="c45a63b2-524f-4933-8811-5276f2c39259" name="Rocket ">
+      <property name="Card Number" value="MNB-053" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Rocket gets +4/+0 the next time he attacks during this turn. Back Against the Wall Level Up (1) - When you have no cards in hand, Rocket gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="5275be98-a605-4aa8-b63a-c505ba939289" name="Rocket ">
+      <property name="Card Number" value="MNB-054" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Rocket gets +4/+0 the next time he attacks during this turn. One Raccoon's Garbage Main [Training Ground]: Choose two random cards in your KO pile, reveal them, and put them into your hand." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="4d9e0702-3cbe-49b4-8d57-14b20fd272cf" name="Star-Lord ">
+      <property name="Card Number" value="MNB-055" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Academy]: You pay 1 less to recruit your next character during this turn. Recruiting Drive Level Up (5) - When you recruit a character, Star-Lord gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="a97ae48e-bf4c-4f11-af45-118a2f18660f" name="Star-Lord ">
+      <property name="Card Number" value="MNB-056" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Academy]: You pay 1 less to recruit your next character during this turn. Space Cop Main [Training Ground]: Each enemy character loses its powers this turn." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="b3d16ceb-18b9-4940-8649-c6a6c5b3adcb" name="Gamora ">
+      <property name="Card Number" value="MNB-057" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: If Gamora stunned an enemy character during this turn, put two +1/+1 counters on her. Deadliest Woman in the Universe Level Up (3) - When Gamora stuns a main character, she gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="d1f38fbe-98de-416b-9eb9-4e651a11bb27" name="Gamora ">
+      <property name="Card Number" value="MNB-058" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: If Gamora stunned an enemy character during this turn, put two +1/+1 counters on her. Godslayer Blade Main [Fortress] [Fortress]: This turn, when gamora stuns a character, KO it." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="c4e4eb78-6127-445c-8878-a9e2b09f93e0" name="Groot ">
+      <property name="Card Number" value="MNB-059" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Fortress]: Groot gets +1/+1 this combat for each resource on your side. I am Groot Level Up (5) - When you gain a resource, Groot gains an XP." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="98c5ff06-0bed-4d4d-b764-661851cd2067" name="Groot ">
+      <property name="Card Number" value="MNB-060" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Fortress]: Groot gets +1/+1 this combat for each resource on your side. We are Groot Main [Laboratory]: Heal a wound from each character on your side. Groot becomes Level 1." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="2cd50bf6-e19e-4627-8158-983a7be01362" name="Cosmo ">
+      <property name="Card Number" value="MNB-061" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When he appears, choose an enemy character. It loses and can't gain  Keyword and Super Powers until Cosmo gets stunned or leavs play. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="cd95fe92-8cae-405b-8a70-0685a0011b3f" name="Yondu ">
+      <property name="Card Number" value="MNB-062" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: Stun a supporting character with cost of 3 or less. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="86be977d-859d-44c2-b5f6-8d6147da75c3" name="Major Victory ">
+      <property name="Card Number" value="MNB-063" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Push an enemy character to its back row. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="9ff7df5e-e259-4af8-a66e-88e151206839" name="Mantis ">
+      <property name="Card Number" value="MNB-064" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When she gets KO'd, you may turn her into a face-down resource on your side. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="be8c6c2e-75f1-451c-91ef-df0e7f3021e0" name="Agent Venom ">
+      <property name="Card Number" value="MNB-065" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: Put two +1/+1 counters on Agent Venom " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="4f233c28-729c-4f7f-9cbd-976e634c41ec" name="Rocket ">
+      <property name="Card Number" value="MNB-066" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: Put a card from your KO pile into your hand. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="8011bace-b2f0-4419-bf84-0013ba9358ff" name="Gamora ">
+      <property name="Card Number" value="MNB-067" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When she attacks and stuns a suporting character, KO it. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="43226264-547b-4f12-99b3-2016d1807b7b" name="Nova ">
+      <property name="Card Number" value="MNB-068" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Ready Nova " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="ade77fa9-72d0-45b2-9e1b-7a193506b503" name="Star-Lord ">
+      <property name="Card Number" value="MNB-069" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="While he's team attacking, you choose who the defender strikes back against. Team Up [Guandians of the Galaxy] Each supporting character on your side is also a [Guardians of the Galaxy] supporting character." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="e4c346e8-2629-4f6a-b63f-460b141f0b82" name="Groot ">
+      <property name="Card Number" value="MNB-070" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="0+/0+" />
+      <property name="DEF" value="0+/0+" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Groot has +1/+1 for each resource on your side. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="08079146-891d-42f7-96cf-d3862b6983e5" name="Moondragon ">
+      <property name="Card Number" value="MNB-071" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Look at the top three cards of your deck, put one in your hand, and the others on the bottom of the deck. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="61db45de-a5e3-481a-9ea0-8cedc03ae1b8" name="Quasar ">
+      <property name="Card Number" value="MNB-072" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Turn a location face down. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="291d4432-9a05-4374-b44a-63f5bd0c6913" name="Drax ">
+      <property name="Card Number" value="MNB-073" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When he attacks, put a +1/+1 counter on him. Grab While he's in the front row, enemy characters can't fly over him." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="5d7fc59a-7dc3-4fcf-84a6-aec7a0273041" name="Adam Warlock ">
+      <property name="Card Number" value="MNB-074" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="13" />
+      <property name="DEF" value="13" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Adam Warlock appears stunned. Emerge Main [Fortress]: Recover Adam Warlock and ready him. Use this power only while he's stunned." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="327c3a19-9e69-4316-8583-02f3acfa4cbd" name="Vigilante Justice ">
+      <property name="Card Number" value="MNB-075" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Choose a character to become Ferocious this combat. (During melee combat, it strikes before enemy characters.) " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="ef803868-2629-41a1-a067-53eb4d813789" name="Even the Odds ">
+      <property name="Card Number" value="MNB-076" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Remove all +1/+1 counters from an enemy character in the comber. That character's current ATK and DEF become the same as its base ATK and DEF this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="61d2d8bc-f818-4c58-9db7-4b9cad157fa6" name="Give 'Em a Lift ">
+      <property name="Card Number" value="MNB-077" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main: Put a +1/+1 counter on a character on your side. It gains [Flight] this turn. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="95d317f6-783c-4d49-97a8-5180ba48cb0a" name="Knowhere ">
+      <property name="Card Number" value="MNB-078" />
+      <property name="Type" value="Special Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Guardians of the Galaxy" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] or [Academy] or [Fortress] or [Training Ground] for a [Guardians of the Galaxy] character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="c9cc0321-47f4-4ee9-b01a-27c073f55d0b" name="Green Goblin ">
+      <property name="Card Number" value="MNB-079" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Choose an enemy supporting character and stun it unless that player discards a random card. Chaos and Destruction Level Up (6) - When an enemy character becomes stunned, Green Goblin gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="fac141de-0f0b-4269-938f-31b24b23d5ed" name="Green Goblin ">
+      <property name="Card Number" value="MNB-080" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Choose an enemy supporting character and stun it unless that player discards a random card. Bombs Away Main [Training Ground]: KO a stunned enemy supporting character." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="f93375fe-7ef2-40f4-a5c6-61517d5ff036" name="Loki ">
+      <property name="Card Number" value="MNB-081" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Training Ground]: Play an [Any Turn] Combat plot twist from your KO pile, then shuffle it into your deck. Plots Within Plots Level Up (5) - When you play a plot twist, Loki gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="efbb8642-7fe5-4da9-890d-afc407f94bef" name="Loki ">
+      <property name="Card Number" value="MNB-082" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Training Ground]: Play an [Any Turn] Combat plot twist from your KO pile, then shuffle it into your deck. Master of Plots Main [Academy]: Choose an enemy player to reveal their hand and discard all of their plot twists." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="984585fe-659c-4b49-b651-444f0c2719c2" name="Magneto ">
+      <property name="Card Number" value="MNB-083" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Laboratory]: Magneto gets +0/+4 this combat. Mutant Master Level Up (4) - At the start of your turn, if Magneto is face-up, he gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="4014910f-6249-41b6-aa0d-79f206de7bce" name="Magneto ">
+      <property name="Card Number" value="MNB-084" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Laboratory]: Magneto gets +0/+4 this combat. Mutant Supremacy Main [Fortress]: KO a face-down resource." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="dd0e2947-0c23-42ed-81d4-b450ed48311d" name="Thanos ">
+      <property name="Card Number" value="MNB-085" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: Shuffle each character in a KO pile into its deck. Then put that many +1/+1 counters on Thanos The Mad Titan Level Up (6) - When a character on any side gets KO'd, Thanos gains an XP." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="6706e4f8-ae81-40a5-ac24-6b206599650b" name="Thanos ">
+      <property name="Card Number" value="MNB-086" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: Shuffle each character in a KO pile into its deck. Then put that many +1/+1 counters on Thanos The infinity Gauntlet Main [Laboratory] [Academy] [Fortress] [Training Ground]: For each enemy player, stun their main character, KO one of their resources, KO one of their supporting characters, and they discard their hand." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="8f40ca93-5476-467e-b7cd-6f84bce358b7" name="Ronan ">
+      <property name="Card Number" value="MNB-087" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Name any card. Choose an enemy player to reveal their hand and discard each card with that name. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="4a01c605-f064-4ebe-8ac1-275cb7e4c67e" name="Mystique ">
+      <property name="Card Number" value="MNB-088" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: Choose another face-up character. Mystique's base ATK and DEF become the same as that character's current ATK and DEF for the rest of this turn. (She'll still be affected by any +1/+1 or -1/-1 counters she has.) " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="c6d6f7bc-a549-42a2-a198-c43d525dcd0e" name="Doctor Octopus ">
+      <property name="Card Number" value="MNB-089" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="While he's in the front row, enemy characters can't fly over him. Genius At the start of your turn, if he's face-up, you may draw a card." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="aef0d726-a1e5-435c-9cbb-5007e1be5d27" name="Green Goblin ">
+      <property name="Card Number" value="MNB-090" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When he appears, choose an enemy row and put a -1/-1 counter on each character there. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="cbacff98-c8f2-45d6-8398-667ea5564f2f" name="Red Skull ">
+      <property name="Card Number" value="MNB-091" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="He can't be ranged attacked. Dust of Death [Any Turn] Combat [Training Ground]: Stun a character that is melee attacking the Red Skull." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="2bcd4e8d-64af-4e93-92b7-43c5953ca6fc" name="Sabretooth ">
+      <property name="Card Number" value="MNB-092" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="During melee combat, he strikes before enemy characters. Berserker When he attacks, put a +1/+1 counter on him." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="01d5539a-3490-4b80-98d4-2c83f84bd86a" name="Ultron ">
+      <property name="Card Number" value="MNB-093" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="You can have any number of this character on your side. This power can't be turned off. Replicate Build [Laboratory]: Search your deck for a copy of this character and put it into play, then suffle your deck." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="f53519dd-3d54-4e45-948c-eba6720967b6" name="Abomination ">
+      <property name="Card Number" value="MNB-094" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When he is melee team attacked, he strikes back against each attacker. " />
+      <property name="Health" value="3" />
+   </card>
+   <card id="255bc17a-2738-4afc-b0f3-7558c86e6da2" name="Mandarin ">
+      <property name="Card Number" value="MNB-095" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Draw a card. Main [Training Ground]: Choose an enemy player to discard a card." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="6f2407c4-cd0b-4d38-975c-086f87a5184c" name="Juggernaut ">
+      <property name="Card Number" value="MNB-096" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="8" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Combat [Fortress]: While attacking solo during this combat, if Juggernaut stuns a front row enemy character and survives, he may immediately attack a character in that back row. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="38fc2a6c-8f1d-46fe-a80d-c00da34c127c" name="Magneto ">
+      <property name="Card Number" value="MNB-097" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Enemy supporting characters can't recovcer. They remain stunned. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="547da38c-1a39-4259-9f6d-aea6245cba12" name="Loki ">
+      <property name="Card Number" value="MNB-098" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="The first time you play a plot twist each turn, you may draw a card. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="78a0d96f-f3e6-4548-b90c-f86938549c94" name="Dormammu ">
+      <property name="Card Number" value="MNB-099" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When he's KO'd you may shuffle him into your deck. Necromancy Main [Academy] [Laboratory]: Put a character from an enemy player's KO pile onto your side." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="cc4954e1-414b-45fd-bf8f-4c209b76293c" name="Thanos ">
+      <property name="Card Number" value="MNB-100" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="8" />
+      <property name="ATK" value="12" />
+      <property name="DEF" value="12" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: Add a wound to all stunned characters. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="f19a734c-98c7-45b7-9725-ab8a36b1cae5" name="Extinguish ">
+      <property name="Card Number" value="MNB-101" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main: KO a stunned supporting character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="e8df2dde-75a1-460d-8499-40afd01bfb70" name="Metal and Fire ">
+      <property name="Card Number" value="MNB-102" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Put a -1/-1 counter on each enemy character in the combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="0944b203-b1a5-4c2b-91c1-b34d832048be" name="Trickster God ">
+      <property name="Card Number" value="MNB-103" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Switch the current ATK and DEF of a character for this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="dfea856f-e480-4bbd-975f-4cbaf31500e6" name="The Vault ">
+      <property name="Card Number" value="MNB-104" />
+      <property name="Type" value="Special Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Super Villains" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] or [Academy] or [Fortress] or [Training Ground] for a [Super Villains] character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="4f0ebe05-3ea4-437c-b7bc-e03752e19ce3" name="Open Fire ">
+      <property name="Card Number" value="MNB-105" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Choose an attacker to get +2/+0 this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="318d3c1b-bbee-4648-bfe4-940cfe467ad0" name="Best Offense is a Good Defense ">
+      <property name="Card Number" value="MNB-106" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Choose an attacker to get +0/+5 this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="8be3cf37-3a75-4bc4-aa38-fe368f51fa8e" name="Savage Surprise ">
+      <property name="Card Number" value="MNB-107" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Choose a defender to get +4/+0  this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="1458c250-a91e-48d7-9a8c-af00ac354d33" name="Find Cover ">
+      <property name="Card Number" value="MNB-108" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat: Choose a defender to get +0/+3 this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="f673d38b-24e1-4cf6-9e33-6e5d05e623a0" name="Training Ground ">
+      <property name="Card Number" value="MNB-109" />
+      <property name="Type" value="Basic Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Training Ground] " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="a6b992ea-4429-4eaa-be8e-6b68b2d88cfd" name="Laboratory ">
+      <property name="Card Number" value="MNB-110" />
+      <property name="Type" value="Basic Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="731cf177-2c29-4c26-90af-c11492c0a517" name="Academy ">
+      <property name="Card Number" value="MNB-111" />
+      <property name="Type" value="Basic Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Academy] " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="809f3c99-03dd-4e4c-92b3-9bbf6c61bccb" name="Fortress ">
+      <property name="Card Number" value="MNB-112" />
+      <property name="Type" value="Basic Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Fortress] " />
+      <property name="Health" value="0" />
+   </card>
+  </cards>
+</set>
