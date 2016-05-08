@@ -53,6 +53,21 @@ cardSchema.statics = {
       if (prop === "name" || prop === "rules") {
         _query[prop] = new RegExp(_query[prop], 'i');
       }
+
+      if (prop === 'type') {
+        // allow for multiple card types and do an or filter on them.
+        _query[prop] = { $in: _query[prop] };
+      }
+
+      if (prop === 'team') {
+        // allow for multiple team selection
+        _query[prop] = { $in: _query[prop] };
+      }
+
+      if (prop === 'powers') {
+        //for now only covers flight and range, this will change
+        _query[prop] = { $in: _query[prop] };
+      }
     }
     return this.find(_query).execAsync();
   },

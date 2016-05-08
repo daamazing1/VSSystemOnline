@@ -12,7 +12,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 //load card and append to req
 function query(req, res, next) {
-  console.log(req.body);
   _card2.default.query(req.body).then(function (cards) {
     res.json(cards);
   }).error(function (e) {
@@ -20,6 +19,7 @@ function query(req, res, next) {
   });
 }
 
+//list out all the cards from the database
 function list(req, res, next) {
   var _req$query = req.query;
   var _req$query$limit = _req$query.limit;

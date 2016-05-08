@@ -47,6 +47,13 @@ _mongoose2.default.connection.on('open', function () {
 
 //express configuration
 var app = (0, _express2.default)();
+//Add CORS
+app.use(function (req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  next();
+});
+
 app.use(_bodyParser2.default.json());
 app.use('/api', _routes2.default);
 

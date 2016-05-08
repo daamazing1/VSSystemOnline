@@ -1,0 +1,16 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "Reads the set.xml file to populate the mongodb database.",
+  "main": "loadCards.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash": "^4.11.2",
+    "mongodb": "^2.1.18",
+    "xml2js": "^0.4.16"
+  }
+}

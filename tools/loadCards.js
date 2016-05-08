@@ -17,16 +17,17 @@ MongoClient.connect(url, function(err, db){
         parseXML()
           .then(function(data){
             //we currently have the data as a single document... need to break
-            //this into a one-to-many relationship betweent the set and the
+            //this into a one-to-many relationship between the set and the
             //cards.
             var setData = {};
             setData.name = data.name.trim();
             setData._id = new ObjectID();//data.id;
-            setData.cards = _.pluck(data.cards,"_id");
+            setData.cards = _.map(data.cards,"_id");
             insertSet(db, setData)
               .then(function(){
+                // Add the set_id property to the cards
                 var cardData = _.map(data.cards, function(card){
-                  return _.extend({}, card, {set_id:data.id});
+                  return _.extend({}, card, { set_id:data.id });
                 });
                 insertCards(db, cardData).then(function(){
                   db.close();
@@ -116,6 +117,21 @@ function parseXML(){
                     if('cost, atk, def, flight, range, health'.indexOf(name) > -1){
                       continue
                     }
+                }
+
+                //property name is flight or range
+                if(name === "flight" || name === "range"){
+                  //if the value is true
+                  if(value){
+                    //add to the powers array
+                    if(newCard.powers){
+                      newCard.powers.push(name);
+                    }
+                    else{
+                      newCard.powers = [name];
+                    }
+                  }
+                  continue;
                 }
                 newCard[name] = value;
               }

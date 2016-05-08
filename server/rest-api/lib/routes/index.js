@@ -12,6 +12,10 @@ var _cards = require('./cards');
 
 var _cards2 = _interopRequireDefault(_cards);
 
+var _lookups = require('./lookups');
+
+var _lookups2 = _interopRequireDefault(_lookups);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var router = _express2.default.Router();
@@ -20,6 +24,7 @@ router.get('/heath-check', function (req, res) {
 });
 
 router.use('/cards', _cards2.default);
+router.use('/lookup', _lookups2.default);
 
 exports.default = router;
 module.exports = exports['default'];

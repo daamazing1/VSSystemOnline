@@ -1,0 +1,67 @@
+<!doctype html>
+<html ng-app="card">
+  <head>
+    <meta charset="utf-8">
+    <title>VS System 2PCG Card Database</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css({.tmp/serve,src}) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/angular-ui-grid/ui-grid.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="app/app.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">VS System 2PCG</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="col-sm-3 col-md-2">
+        <div ui-view="card-filter"></div>
+      </div>
+      <div class="col-sm-9 col-md-10">
+        <div ui-view="card-results"></div>
+      </div>
+    </div>
+    <!-- build:js(src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script src="../bower_components/amitava82-angular-multiselect/dist/multiselect-tpls.js"></script>
+    <script src="../bower_components/angular-ui-grid/ui-grid.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+    <!-- inject:js -->
+    <script src="app/app.js"></script>
+    <script src="app/shared/card-service/card-service.js"></script>
+    <script src="app/components/card-results/card-results.js"></script>
+    <script src="app/components/card-filters/card-filters.js"></script>
+    <script src="app/config/state-config.js"></script>
+    <!-- endinject -->
+    <!-- inject:partials -->
+    <!-- endinject -->
+    <!-- endbuild -->
+  </body>
+</html>
