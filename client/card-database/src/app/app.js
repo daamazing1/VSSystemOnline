@@ -7,6 +7,7 @@
       'ngAnimate',
       'am.multiselect',
       'ui.grid',
-      'ui.grid.autoResize'
+      'ui.grid.autoResize',
+      'ui.grid.expandable'
     ]);
 })(window.angular);

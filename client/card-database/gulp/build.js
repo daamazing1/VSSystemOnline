@@ -75,12 +75,18 @@ gulp.task("data", function () {
       .pipe(gulp.dest(paths.dist + "/data/"));
 });
 
-gulp.task("fonts", function () {
+gulp.task("fonts", ["bootstrap-fonts"], function () {
     return gulp.src($.mainBowerFiles())
-      .pipe($.filter("**/*.{eot,svg,ttf,woff}"))
+      .pipe($.debug())
+      .pipe($.filter("**/*.{eot,svg,ttf,woff,woff2}"))
       .pipe($.flatten())
       .pipe(gulp.dest(paths.dist + "/fonts/"));
 });
+
+gulp.task("bootstrap-fonts", function(){
+  return gulp.src("bower_components/bootstrap-sass/assets/fonts/**/*")
+    .pipe(gulp.dest(paths.dist + "/fonts/"));
+})
 
 gulp.task("misc", function () {
     return gulp.src(paths.src + "/**/*.ico")

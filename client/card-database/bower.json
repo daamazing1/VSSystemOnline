@@ -1,7 +1,6 @@
 {
   "name": "vs-2pcg-database",
   "description": "Upperdeck VS System 2PCG card database.",
-  "main": "index.js",
   "authors": [
     "Alex Diokmedjian"
   ],
@@ -23,5 +22,9 @@
     "angular-animate": "^1.5.5",
     "amitava82-angular-multiselect": "^1.2.0",
     "angular-ui-grid": "^3.1.1"
-  }
+  },
+  "devDependencies": {},
+  "main": [
+    "index.js"
+  ]
 }
