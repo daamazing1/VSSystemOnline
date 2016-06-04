@@ -36,29 +36,39 @@ var cardSchema = new mongoose.Schema({
 
 cardSchema.statics = {
   query(query){
-    for (var prop in query) {
-      if(prop === "name" || prop === "rules"){
-        query[prop] = new RegExp(query[prop], 'i');
+    for(var prop in query) {
+      // remove any properties of the query which are empty.
+      if((typeof query[prop] === 'string' && query[prop].trim() === '') || (query[prop].length === 0)){
+        delete query[prop];
+        continue;
       }
-
-      if(prop === 'type'){
-        // allow for multiple card types and do an or filter on them.
-        query[prop] = { $in: query[prop] };
-      }
-
-      if(prop === 'team'){
-        // allow for multiple team selection
-        query[prop] = { $in: query[prop] };
-      }
-
-      if(prop === 'powers'){
-        //for now only covers flight and range, this will change
-        query[prop] = { $in: query[prop] };
+      // use in clause for some query fields
+      switch(prop){
+        case 'name':
+        case 'rules':
+          query[prop] = new RegExp(query[prop], 'i');
+          break;
+        case 'type':
+        case 'team':
+        case 'powers':
+          // allow for multiple card types and do an or filter on them.
+          // allow for multiple team selection
+          // for now only covers flight and range, this will change
+          query[prop] = { $in: query[prop] };
       }
     }
-    return this
-      .find(query)
-      .execAsync();
+    //check and make sure that query has something to query, if query object is
+    //empty then just return an empty recordset.
+    for(var key in query){
+      if(query.hasOwnProperty(key)){
+        return this
+          .find(query)
+          .execAsync();
+      }
+    }
+    var deferred = Promise.defer();
+    deferred.resolve([]);
+    return deferred.promise;
   },
   list({ skip = 0, limit = 50} = {}){
     return this

@@ -50,26 +50,36 @@ var cardSchema = new _mongoose2.default.Schema({
 cardSchema.statics = {
   query: function query(_query) {
     for (var prop in _query) {
-      if (prop === "name" || prop === "rules") {
-        _query[prop] = new RegExp(_query[prop], 'i');
+      // remove any properties of the query which are empty.
+      if (typeof _query[prop] === 'string' && _query[prop].trim() === '' || _query[prop].length === 0) {
+        delete _query[prop];
+        continue;
       }
-
-      if (prop === 'type') {
-        // allow for multiple card types and do an or filter on them.
-        _query[prop] = { $in: _query[prop] };
-      }
-
-      if (prop === 'team') {
-        // allow for multiple team selection
-        _query[prop] = { $in: _query[prop] };
-      }
-
-      if (prop === 'powers') {
-        //for now only covers flight and range, this will change
-        _query[prop] = { $in: _query[prop] };
+      // use in clause for some query fields
+      switch (prop) {
+        case 'name':
+        case 'rules':
+          _query[prop] = new RegExp(_query[prop], 'i');
+          break;
+        case 'type':
+        case 'team':
+        case 'powers':
+          // allow for multiple card types and do an or filter on them.
+          // allow for multiple team selection
+          // for now only covers flight and range, this will change
+          _query[prop] = { $in: _query[prop] };
       }
     }
-    return this.find(_query).execAsync();
+    //check and make sure that query has something to query, if query object is
+    //empty then just return an empty recordset.
+    for (var key in _query) {
+      if (_query.hasOwnProperty(key)) {
+        return this.find(_query).execAsync();
+      }
+    }
+    var deferred = _bluebird2.default.defer();
+    deferred.resolve([]);
+    return deferred.promise;
   },
   list: function list() {
     var _ref = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];

@@ -1,0 +1,767 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="A-Force" id="0f958ebd-1d50-4630-8e55-22f808e94eaa" 
+     gameId="d9d22574-b64d-4f4b-9726-092d35b778c9" gameVersion="1.3" version="1.3">
+ <packaging>
+ <pack name="Booster" id="b9c96108-1202-437c-a5a0-78d6e6dd1ad7">
+  <pick qty="3" key="Rarity" value="U" /> 
+  <pick qty="10" key="Rarity" value="C" /> 
+  <pick qty="1" key="Rarity" value="R" /> 
+ </pack> 
+</packaging>
+<cards>
+   <card id="ce10c04b-d6c9-4de6-990f-4798eb761f04" name="Captain Marvel ">
+      <property name="Card Number" value="AFF-001" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="AKA Ms. Marvel  Main [Laboratory]: Put a +1/+1 counter on Captain Marvel for each other Ranged character on your side.  Woman of War Level Up (4) - When Captain Marvel stuns an enemy character in combat, she gains an XP." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="47bb533f-550f-48bb-b317-7abf2edca991" name="Captain Marvel ">
+      <property name="Card Number" value="AFF-002" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="AKA Ms. Marvel  Main [Laboratory]: Put a +1/+1 counter on Captain Marvel for each other Ranged character on your side. Protonic Blast  Main [Training Ground]: Put a -1/-1 counter on an enemy character for each +1/+1 counter on Captain Marvel." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="507e6068-52d6-41e6-a6fb-62bac4b31671" name="She-Hulk ">
+      <property name="Card Number" value="AFF-003" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="A-Force Assemble!  Main [Training Ground]: When characters on your side team attack the next time this turn, put a +1/+1 counter on each of them.  Fight Together  Level Up (5) - When characters on your side team attack, She-Hulk gains an XP." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="b5ce6a5f-80d4-4b70-94d0-5c1919d2fb70" name="She-Hulk ">
+      <property name="Card Number" value="AFF-004" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="A-Force Assemble!  Main [Training Ground]: When characters on your side team attack the next time this turn, put a +1/+1 counter on each of them.  Rules Lawyer  Reaction [Academy]: When an enemy player uses a super power, you may say 'Objection!' If you do, cancel that super power." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="406846f6-d0b6-432a-a2f1-aed1d0121d25" name="Sister Grimm ">
+      <property name="Card Number" value="AFF-005" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When Blood Is Shed... Level Up (1) - When Sister Grimm gets wounded on an enemy player's turn, she gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="59212b17-738f-4302-b8ad-81a3c374bbf5" name="Sister Grimm ">
+      <property name="Card Number" value="AFF-006" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Each of these super powers can be used only once this game. When you use one, Sister Grimm becomes Level 1.  Muzzle - Main [Training Ground]: Characters on your side can't be attacked until after your next turn.  Bounce House - Main [Laboratory]: Put up to two supporting characters into their owner's hands.  Open Sesame - Main [Academy]: Draw three cards.  Caffeine Injection - Main [Fortress]: Put four +1/+1 counters on a supporting character." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="6f0c78a6-4106-456e-943f-68da0ab24995" name="Phoenix ">
+      <property name="Card Number" value="AFF-007" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="AKA Dark Phoenix  Life Incarnate  Main [Academy]: Heal a wound from a supporting character.  The Sum of All Life and Death  Level Up (1) - When a character appears, if there are 20 or more total supporting characters on all sides and/or KO piles, Phoenix gains an XP." />
+      <property name="Health" value="7" />
+   </card>
+<card id="adbe937d-f545-4d7a-9e03-ecca89ae5928" name="Phoenix ">
+      <property name="Card Number" value="AFF-008" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="AKA Dark Phoenix  Life Incarnate  Main [Academy]: Heal a wound from a supporting character.  From the Ashes  Main [Laboratory][Fortress]: Put a character from your KO pile onto your side." />
+      <property name="Health" value="7" />
+   </card>
+   <card id="2c89ca8a-4a65-4127-a67a-1e4a711c4418" name="Wasp ">
+      <property name="Card Number" value="AFF-009" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When Wasp appears, put a -1/-1 counter on an enemy character.  Shrink  When Wasp gets attacked the first time each turn, you may cancel the combat." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="db620ce5-01dc-40f5-88b1-1edf7dcd1a4c" name="Sister Grimm ">
+      <property name="Card Number" value="AFF-010" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Any Combat [Academy]: Search your deck for an Any Turn Combat plot twist with a different name from each plot twist in your KO pile and play it if able." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="a16144cc-68c7-4663-9843-6ef5315ea16a" name="Pixie ">
+      <property name="Card Number" value="AFF-011" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Reveal cards from the top of your deck until you reveal a character that is not already on your side.  Put that character onto your side and shuffle the rest of the revealed cards into your deck.  At the end of the turn, KO that character." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="6351a5f5-4104-4a5e-a192-7cea25666951" name="Spider-Woman ">
+      <property name="Card Number" value="AFF-012" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Dodge  Spider-Woman can't be ranged attacked.  Venom Blast  Any Turn Combat [Training Ground]: Choose a character in melee combat with Spider-Woman to get -0/-3 this combat." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="03edf0c0-d59c-4b5c-9892-f7b092e8c199" name="Meggan ">
+      <property name="Card Number" value="AFF-013" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: Put +1/+1 counters on Meggan equal to the total number of +1/+1 counters on all other characters on your side." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="7c34ee3b-1618-4834-add4-f314db2f75d4" name="Medusa ">
+      <property name="Card Number" value="AFF-014" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Grab  While Medusa is in the front row, enemy characters can't fly over her.  Prehensile Hair  Main [Training Ground]: Exhaust a front row enemy character.  It can't ready or be moved until Medusa gets stunned or leaves play." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="6de935f0-7425-4a07-b686-2a654945f094" name="Singularity ">
+      <property name="Card Number" value="AFF-015" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Pocket Dimension  At the end of your turn, remove any number of other face-up characters on your side fromthe game, but keep all counters on them.  At the start of your next turn or when Singularity leaves play, those characters appear on their owner's side with those counters." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="0222a02f-4b6b-40a0-8844-744b1558a4a4" name="Dazzler ">
+      <property name="Card Number" value="AFF-016" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Daze an enemy supporting character. (Stun it, but it doesn't get a wound.)" />
+      <property name="Health" value="1" />
+   </card>
+   <card id="fc989f6d-e61a-4edc-a19e-5c5eb08bdbe5" name="She-Hulk ">
+      <property name="Card Number" value="AFF-017" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Leader  When She-Hulk is team attacking, you choose who the defender strikes back against.  Baroness of Arcadia  Any Combat [Fortress]: Each attacking [A-Force] character gets +2/+2 this combat. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="db4feba3-ca62-4a96-8cc3-5d4d77c5e83a" name="Spectrum ">
+      <property name="Card Number" value="AFF-018" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When Spectrum appears or recovers, put a +1/+1 counter on her for each basic [Laboratory] location on all sides." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="a16b60a1-398a-4ea1-a539-d6cdfcd16455" name="Miss America ">
+      <property name="Card Number" value="AFF-019" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Tough  When Miss America gets stunned you may recover her. (She still gets a wound)." />
+      <property name="Health" value="3" />
+   </card>
+   <card id="0f9a671a-19bb-4121-acf3-b3e2035414ed" name="Loki ">
+      <property name="Card Number" value="AFF-020" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Power Hungry  Once per turn, when a character on your side gets powered up, draw three cards.  Questionable Loyalty  At the start of your Build Phase, if a face-up enemy character has higher ATK than each face-up character on your side, move Loki to that player's back row." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="fe8d03d8-69d8-4f7f-865b-7837166f9c90" name="Rogue ">
+      <property name="Card Number" value="AFF-021" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Absorb Powers  When Rogue KO's an enemy supporting character, she gains its keyword and super powers until Rogue becomes stunned or leaves play." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="4c6c7768-fa2c-46e0-97a8-9c02e9f6e6a0" name="Phoenix ">
+      <property name="Card Number" value="AFF-022" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="AKA Dark Phoenix  Take Shield  Any Turn Any Combat [Academy]: The defending character can't be struck this combat.  You may use this power any number of times each turn." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="aeafedaf-7cf4-4ed5-9bbb-3ccaaa73e9d9" name="Heroines of Arcadia ">
+      <property name="Card Number" value="AFF-023" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat: If this is a team attack, each attacker gets +3/+0 this combat." />
+      <property name="Health" value="0" />
+   </card>
+   <card id="7597fbb3-dd3e-46a4-89a8-d5feb79d43af" name="You Won't Like Her When She's Angry ">
+      <property name="Card Number" value="AFF-024" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat: Put two +1/+1 counters on a defender in the combat." />
+      <property name="Health" value="0" />
+   </card>
+   <card id="fd024f3f-02b7-4fec-96a2-4e8118890fe0" name="Build A Better World ">
+      <property name="Card Number" value="AFF-025" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main: Turn one of your face-down Basic Locations face up.  Any Turn Combat: Turn one of your face-down Basic Locations face up." />
+      <property name="Health" value="0" />
+   </card>
+   <card id="0e684fc5-d224-4d8e-b0f2-101030ef3d4d" name="Arcadia ">
+      <property name="Card Number" value="AFF-026" />
+      <property name="Type" value="Special Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="A-Force" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] or [Academy] or [Fortress] or [Training Ground] for an [A-Force] character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="608088e0-ef3c-4182-b731-7d8822752bb4" name="Black Cat ">
+      <property name="Card Number" value="AFF-027" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Choose an enemy player to discard a card.  Queen of Thieves  Level Up (9) - At the end of your turn, choose an enemy player.  If you have more cards in your hand than they do, Black Cat gains an XP equal to the difference." />
+      <property name="Health" value="5" />
+   </card>   
+<card id="98c8fd6c-48eb-48ef-a272-10f3e1546097" name="Black Cat ">
+      <property name="Card Number" value="AFF-028" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Choose an enemy player to discard a card.  Any Turn Combat[Training Ground]: Daze each enemy character in combat with Black Cat. (Stun it, but it doesn't gain a wound.)" />
+      <property name="Health" value="5" />
+   </card>
+   <card id="969fe90e-f412-431a-bbfb-7c6e838b74ca" name="Dark Phoenix ">
+      <property name="Card Number" value="AFF-029" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="AKA Phoenix  Main[Academy][Academy]: Put the top two cards of your deck face down into your resource row.  If any are locations, you may place them face up instead.  Inevitable Corruption  Level Up (1) - When a resource appears on any side, if there are 20 or more total resources on all sides, Dark Phoenix gains an XP." />
+      <property name="Health" value="7" />
+   </card>
+   <card id="677d0124-5ae2-4bfe-b544-6f97382a38ac" name="Dark Phoenix ">
+      <property name="Card Number" value="AFF-030" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="AKA Phoenix  Main[Academy][Academy]: Put the top two cards of your deck face down into your resource row.  If any are locations, you may place them face up instead.  Ravenger of Worlds  Main[Laboratory][Laboratory][Fortress]: KO all face-down enemy resources." />
+      <property name="Health" value="7" />
+   </card>
+   <card id="9fe33af3-da14-4fb6-bb58-1f332638b5da" name="Enchantress ">
+      <property name="Card Number" value="AFF-031" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put two +1/+1 counters on a supporting character that appeared this turn.  Champion of Amora  Level Up (3) - At the end of your turn, if a face-up supporting character on your side has a higher ATK than each face-up enemy supporting character, Enchantress gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="9e952362-6351-4358-8d0d-9694a27b0e5b" name="Enchantress ">
+      <property name="Card Number" value="AFF-032" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put two +1/+1 counters on a supporting character that appeared this turn.  I'll Not Sully My Hands  Main [Academy]: Ready each supporting character on your side that has a +1/+1 counter." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="b1b013b2-4f53-4c6e-a99b-1124c866f377" name="Mystique ">
+      <property name="Card Number" value="AFF-033" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat [Training Ground]: Choose another face-up character.  Mystique gains ATK this combat until her ATK is the same as that character's.  Bitter Fury  Level Up (10) - Whenever Mystique gains ATK she gains that much XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="57f65868-0cbb-4a66-8844-665f2c96ad99" name="Mystique ">
+      <property name="Card Number" value="AFF-034" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat [Training Ground]: Choose another face-up character.  Mystique gains ATK this combat until her ATK is the same as that character's.  Martial Savagery  Any Turn Combat [Fortress]: Mystique is Ferocious and enemy characters lose and can't gain Ferocious this combat." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="fa5d914a-d99b-4975-bc6e-535e53b5eb22" name="Black Cat ">
+      <property name="Card Number" value="AFF-035" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Pounce  While Black Cat is attacking an exhausted character, it can't strike back at her.  Unlucky Break  When Black Cat attacks, remove all +1/+1 counters from the defender.  Enemy characters can't gain +1/+1 counters this combat." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="f414d7e7-c505-45f2-b7ce-4eec62c24d91" name="Madame Masque ">
+      <property name="Card Number" value="AFF-036" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Bio-Duplicate  When you power up Madame Masque by discarding a card named Madame Masque, you may put the discarded card onto your side.  Swarm   You can have any number of Madame Masques on your side.  This power can't be turned off." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="051dcced-4c09-4411-a6b2-6ee9e47b3e47" name="Titania ">
+      <property name="Card Number" value="AFF-037" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat [Fortress]: Titania gets +3/+3 this combat. Durable  If Titania gets stunned other than by getting struck in combat, recover her, and she doesn't get wounded. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="728e450f-aa0c-49f2-a009-54c0af427a06" name="Sin ">
+      <property name="Card Number" value="AFF-038" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat [Training Ground]: Stun a character that is melee attacking Sin." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="ddea2d32-8bf1-4a68-ba10-247af36b804d" name="Moonstone ">
+      <property name="Card Number" value="AFF-039" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Enemy characters lose and can't gain flight." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="6912c229-bd82-45e2-b948-7ad975bbbfbd" name="Silver Sable ">
+      <property name="Card Number" value="AFF-040" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Silver Sable can team attack with any main character.  At the start of your Build Phase, you gain a Recruit Point." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="2f55b1a5-3958-49b0-9c0e-7d2376d41a75" name="Nebula ">
+      <property name="Card Number" value="AFF-041" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Nebula gets +3/+3 if your main character is Evil and is Level 2 or higher." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="b26fc58f-787d-416b-b813-19b4cd57206c" name="Goblin Queen ">
+      <property name="Card Number" value="AFF-042" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Put Demon Goblin tokens into your front row until there are four on your side. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="4370250c-c057-4a31-b851-8a4db77cce45" name="Spiral ">
+      <property name="Card Number" value="AFF-043" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Once per turn during your Main Phase but not during combat, you may move Spiral to your front or back row.  Ferocious  During melee combat, Spiral strikes before enemy characters without Ferocious." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="92d45a1d-a4ea-4eec-90da-f806fbe494e1" name="Viper ">
+      <property name="Card Number" value="AFF-044" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: Put a -1/-1 counter on up to two enemy characters.  Succumb to Poison  At the end of your turn, double the -1/-1 counters on each enemy character." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="a4cd356b-97c3-4f58-bb53-3fb9669454e4" name="Satana ">
+      <property name="Card Number" value="AFF-045" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Fatal Females  Femme Fatale characters on your side are Lethal.  Consume Soul  Main [Laboratory]: Remove a character in an enemy player's KO pile from the game. That player reveals their hand and deck and removes all characters with that name from the game.  Then, they shuffle their deck." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="5325f0ba-4c98-45b4-8866-d03793ecc9be" name="Lady Deathstrike ">
+      <property name="Card Number" value="AFF-046" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat [Fortress]: When Lady Deathstrike stuns an enemy main character this combat and survives, put an extra wound on that character." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="21cdbae5-b10e-45f6-8b60-202da03b1e2d" name="Morgan Le Fay ">
+      <property name="Card Number" value="AFF-047" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Immortal  When Morgan Le Fay gets KO'd you may shuffle her into your deck.  Growing Magic  Main [Academy]: Draw cards equal to the number of times you've used a super power named Growing Magic this game." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="045f9625-3e8e-4351-990f-657606eef059" name="Enchantress ">
+      <property name="Card Number" value="AFF-048" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Put two +1/+1 counters on another character on your side.  When it attacks the next time this turn, ready it." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="436f4cde-da8c-4632-b5ba-fe489f8ff1f0" name="Femme Fatality ">
+      <property name="Card Number" value="AFF-049" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main: Choose a character and put a -1/-1 counter on it for each supporting character on your side." />
+      <property name="Health" value="0" />
+   </card>
+   <card id="bd402c9f-1acd-4ab6-b2ea-bba168985718" name="Dramatic Entrance ">
+      <property name="Card Number" value="AFF-050" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat: If the defender is on your side, you may put a character from your hand next to it.  If you do, remove the defender from combat and the new character becomes the defender.  At the end of combat, KO the new character." />
+      <property name="Health" value="0" />
+   </card>
+   <card id="9ccef80f-cfc4-4913-a309-8e6c9796250c" name="Cat Fight ">
+      <property name="Card Number" value="AFF-051" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat: Choose an attacker to get +4/+0 this combat." />
+      <property name="Health" value="0" />
+   </card>
+   <card id="e030a532-60ac-4449-8547-aa3c5c287fed" name="Madripoor ">
+      <property name="Card Number" value="AFF-052" />
+      <property name="Type" value="Special Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] or [Academy] or [Fortress] or [Training Ground] for a [Femme Fatale] character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="aeb5b82c-0a40-4efd-bb70-08508ac80120" name="Main Strength ">
+      <property name="Card Number" value="AFF-053" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat: Your main character gets +2/+0 this combat." />
+      <property name="Health" value="0" />
+   </card>
+   <card id="4a8571f1-ac4b-40fe-9027-3a9cf9fb9ab1" name="Demon Goblin ">
+      <property name="Card Number" value="AFF-054" />
+      <property name="Type" value="Supporting Character - Token" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Femme Fatale" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Swarm  You can have any number of Demon Goblins on your side. This power can't be turned off." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="526055f1-c629-4b37-ba32-5d1d6edab999" name="Academy ">
+      <property name="Card Number" value="AFF-055" />
+      <property name="Type" value="Basic location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Academy] " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="37f60b6a-8760-49ef-a362-791da660158e" name="Fortress ">
+      <property name="Card Number" value="AFF-056" />
+      <property name="Type" value="Basic location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Fortress] " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="3a3be6d0-f63b-4784-89f1-87db5030c7da" name="Laboratory ">
+      <property name="Card Number" value="AFF-057" />
+      <property name="Type" value="Basic location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="90bb3872-08b5-45d4-b436-d516713149be" name="Training Ground ">
+      <property name="Card Number" value="AFF-058" />
+      <property name="Type" value="Basic location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Training Ground] " />
+      <property name="Health" value="0" />
+   </card>  
+  </cards>
+</set>

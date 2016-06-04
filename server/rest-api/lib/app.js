@@ -37,7 +37,7 @@ var app = (0, _express2.default)();
 
 //Connect to mongo db
 _bluebird2.default.promisifyAll(_mongoose2.default);
-_mongoose2.default.connect('mongodb://172.17.0.2:27017/vs_system_2pcg', { server: { socketOptions: { keepAlive: 1 } } });
+_mongoose2.default.connect('mongodb://54.152.95.76:27017/vs_system_2pcg', { server: { socketOptions: { keepAlive: 1 } } });
 _mongoose2.default.connection.on('error', function () {
   throw new Error('unable to connect to database');
 });

@@ -5,7 +5,7 @@ var path = require('path');
 var _ = require('lodash');
 var ObjectID = require("mongodb").ObjectID;
 
-var url = "mongodb://172.17.0.2:27017/vs_system_2pcg";
+var url = "mongodb://54.152.95.76:27017/vs_system_2pcg";
 var MongoClient = mongodb.MongoClient;
 MongoClient.connect(url, function(err, db){
     "use strict";
@@ -70,7 +70,7 @@ function insertCards(db, data){
 function parseXML(){
   var parser = new xml2js.Parser();
   return new Promise(function(fulfill, reject){
-    fs.readFile(path.join(__dirname, "set.xml"), function(err,data){
+    fs.readFile(path.join(__dirname, "set3.xml"), function(err,data){
       if(err) reject(err);
       else{
         parser.parseString(data, function(err, result){
@@ -104,16 +104,20 @@ function parseXML(){
 
                 if(name === "team1"){
                   name = "team";
+                  if(value === "" || value === 0){
+                    newCard.team = "None";
+                    continue;
+                  }
                 }
 
                 if(name === "team2"){
                   continue;
                 }
 
-                switch(newCard.type){
-                  case 'Plot Twist':
-                  case 'Special Location':
-                  case 'Basic Location':
+                switch(newCard.type.toUpperCase()){
+                  case 'PLOT TWIST':
+                  case 'SPECIAL LOCATION':
+                  case 'BASIC LOCATION':
                     if('cost, atk, def, flight, range, health'.indexOf(name) > -1){
                       continue
                     }

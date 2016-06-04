@@ -1,7 +1,7 @@
 <form>
   <div class="form-group">
     <label for="cardName">Card Name</label>
-    <input type="text" class="form-control" id="cardName" />
+    <input type="text" class="form-control" id="cardName" ng-model="vm.query.name" />
   </div>
   <div class="form-group">
     <label for="cardType">Card Type</label>
@@ -41,11 +41,11 @@
   </div>
   <div class="form-group">
     <label for="cardText">Card Text</label>
-    <input type="text" class="form-control" id="cardText" />
+    <input type="text" class="form-control" id="cardText" ng-model="vm.query.rules"/>
   </div>
   <div class="form-group">
     <label for="cardCost">Card Cost</label>
-    <input type=text" class="form-control" id="cardCost" />
+    <input type=text" class="form-control" id="cardCost" ng-model="vm.query.cost"/>
   </div>
   <div class="form-group">
     <label for="atk">Attack</label>

@@ -10,7 +10,7 @@ var app = express();
 
 //Connect to mongo db
 Promise.promisifyAll(mongoose);
-mongoose.connect('mongodb://172.17.0.2:27017/vs_system_2pcg', {server: {socketOptions: {keepAlive: 1}}});
+mongoose.connect('mongodb://54.152.95.76:27017/vs_system_2pcg', {server: {socketOptions: {keepAlive: 1}}});
 mongoose.connection.on('error', () => {
   throw new Error('unable to connect to database');
 });

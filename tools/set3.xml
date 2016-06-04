@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Defenders" id="1e95e17b-c36c-44c0-8055-508c982ffd42" 
+     gameId="d9d22574-b64d-4f4b-9726-092d35b778c9" gameVersion="1.3" version="1.3">
+ <packaging>
+ <pack name="Booster" id="e7fbbbd9-3b0f-4977-92d4-9be320101d43">
+  <pick qty="3" key="Rarity" value="U" /> 
+  <pick qty="10" key="Rarity" value="C" /> 
+  <pick qty="1" key="Rarity" value="R" /> 
+ </pack> 
+</packaging>
+<cards>
+   <card id="4cb0a858-3401-48d9-b80d-e19d7c3e88d4" name="Daredevil ">
+      <property name="Card Number" value="DEF-001" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Time] Combat [Training Ground]: Daredevil strikes with double his ATK this combat. Protector of Hell's Kitchen Level Up (3) - When Daredevil gets attacked, if he's protecting a character, he gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="2d185d25-e85e-4be4-b05a-d9d00e8b0730" name="Daredevil ">
+      <property name="Card Number" value="DEF-002" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Time] Combat [Training Ground]: Daredevil strikes with double his ATK this combat. Radar Sense Main [Academy]: Enemy players must play with their hands revealed. An enemy player may pay a [Training Ground] during their Main Phase to end this effect." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="202673c1-952f-4c9d-b93c-8798d52479e6" name="Dr. Strange ">
+      <property name="Card Number" value="DEF-003" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Laboratory]: Draw a card. You may use this power any number of times on your turn. Supreme Power Level Up (5) - Whenever you draw one or more cards, Dr. Strange gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="efdacb88-0607-45b9-b93d-4ada8b88c8e5" name="Dr. Strange ">
+      <property name="Card Number" value="DEF-004" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Laboratory]: Draw a card. You may use this power any number of times on your turn. Mass Transmutation Main [Academy]: Choose any number of characters. For each one, remove its +1/+1 counters and put that many -1/-1 counters on it, or vice versa." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="108b2a4f-589a-4af7-8d41-ba3832b429ec" name="Ghost Rider ">
+      <property name="Card Number" value="DEF-005" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy][Fortress]: Stun an enemy character that attacked since the end of your last turn. When Innocent Blood Is Spilled Level Up (3) - When another character on your side gets KO'd on an enemy player's turn, Ghost Rider gains an XP." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="21ee52f7-959d-4151-a3fd-eae7e67f1b57" name="Ghost Rider ">
+      <property name="Card Number" value="DEF-006" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy][Fortress]: Stun an enemy character that attacked since the end of your last turn. Main [Training Ground]: If Ghost Rider is ready, drive him to an enemy row. He may make any number of melee attacks, one at a time, against characters in that row. When Ghost Rider gets stunned or you're done attacking, drive him back to one of your rows exhausted." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="1c882ce8-27c6-4e14-bd76-1c1d2cf249ac" name="Luke Cage ">
+      <property name="Card Number" value="DEF-007" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Fortress]: If Luke Cage gets stunned during this combat, he doesn't receive a wound. Hero for Hire Level Up (5) - During your Build Phase you may pay any amount of resource points to give Luke Cage that much XP." />
+      <property name="Health" value="5" />
+   </card>
+<card id="f2d0b897-0dc5-4651-9315-fc112d1c5c22" name="Luke Cage ">
+      <property name="Card Number" value="DEF-008" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Turn] Combat [Fortress]: If Luke Cage gets stunned during this combat, he doesn't receive a wound. Power Man and... Build [Academy]: Search your hand, deck, and KO pile for an Iron Fist supporting character and put him into one of your rows." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="f0b282e0-32b9-4e4c-80a1-703ef8de52e4" name="Angel ">
+      <property name="Card Number" value="DEF-009" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Angel can't be ranged attacked.  Main [Laboratory]: Heal a wound from a supporting character on your side." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="242e8cf3-8fc7-41bd-8a2b-6b734e680362" name="Hellcat ">
+      <property name="Card Number" value="DEF-010" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="While Hellcat is attacking an exhausted character, it can't strike back against her." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="47352972-6323-4c4b-892d-7b8a31193cb3" name="Dagger ">
+      <property name="Card Number" value="DEF-011" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When Dagger appears, remove all -1/-1 counters from characters on your side. Characters on your side can't gain -1/-1 counters." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="cfbc30e6-c143-43e9-9a3d-87a9fca1e413" name="Iron Fist ">
+      <property name="Card Number" value="DEF-012" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Iron Fist can't be ranged attacked. Iron Fist Punch [Any Turn] Combat [Training Ground]: When Iron Fist strikes a character this combat, stun that character." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="9dbf1cad-5ba2-4ae0-8467-ef68109762cd" name="Scarlet Witch ">
+      <property name="Card Number" value="DEF-013" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Enemy characters can't level up. (They can still gain XP.)" />
+      <property name="Health" value="1" />
+   </card>
+   <card id="7e3f1af0-122c-4e53-a7d0-32cb887fd029" name="Cloak ">
+      <property name="Card Number" value="DEF-014" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="At the start of each player's Build Phase, put a -1/-1 counter on each character on that player's side." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="64d9ee27-b2e1-4790-b182-d3926f837665" name="Deathlok ">
+      <property name="Card Number" value="DEF-015" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: Put a character in your KO pile on the bottom of your deck. Deathlok has that character's base ATK and DEF instead of his own this turn." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="0e8aff81-6d35-4e95-9b12-2c18a400eb1e" name="Moon Knight ">
+      <property name="Card Number" value="DEF-016" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="You can discard any character to power-up Moon Knight." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="0b815171-141f-4090-9edd-1a10ef6b3480" name="Nighthawk ">
+      <property name="Card Number" value="DEF-017" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Academy]: You pay 4 less to recruit your next [Defenders] character this turn. Night Shift Nighthawk gets +3/+3 during enemy players' turns. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="47419202-dc34-4b39-9ed0-fd5f885a4953" name="Punisher ">
+      <property name="Card Number" value="DEF-018" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When Punisher stuns a defending supporting character, KO it. Perfect Position Any Time Combat [Training Ground]: If Punisher is in ranged combat, he can't be struck this combat. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="d665aa2c-a05c-474b-a2d0-619a0dc0b9b6" name="Vision ">
+      <property name="Card Number" value="DEF-019" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Combat [Laboratory]: If Vision is attacking, double his current ATK and DEF this combat. Decrease Density [Any Time] Combat [Laboratory]: If Vision is defending he can't strike or be striked back this combat. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="09fa796a-6ca7-4caa-b0bc-540bb45b37c2" name="Valkyrie ">
+      <property name="Card Number" value="DEF-020" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Academy]: You may recruit characters from your KO pile this turn. " />
+      <property name="Health" value="2" />
+   </card>
+   <card id="06de68d3-bab2-4959-b6d0-244b3b0bd31e" name="War Machine ">
+      <property name="Card Number" value="DEF-021" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Rocket Launcher [Fortress] [Fortress]: KO a supporting character. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="1f819d2b-e537-4ac8-9e4b-cc2bb3cf2535" name="Ghost Rider ">
+      <property name="Card Number" value="DEF-022" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="8" />
+      <property name="DEF" value="8" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When Ghost Rider appears, choose an enemy character and put -1/-1 counters on it equal to the number of Good characters in your KO pile." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="923d9d54-f331-4c8e-8871-562fd1f34790" name="Spellbound ">
+      <property name="Card Number" value="DEF-023" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat: Enemy players can't player plot twists this combat." />
+      <property name="Health" value="0" />
+   </card>
+   <card id="4de1212b-d8c1-40f7-8f9b-7b8edc59d4d7" name="Hidden Weapons ">
+      <property name="Card Number" value="DEF-024" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Main]: Choose a character on your side to get +1/+1 and [Range] this turn. [Any Time] Combat: Choose a character in the combat to get +1/+1 and [Range] this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="1895993d-3f72-4807-ad2f-d65a49e7f4f0" name="Super Senses ">
+      <property name="Card Number" value="DEF-025" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Any Time] Combat: Choose a defending character to get +0/+5 this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="b4fe7134-000d-4ea4-8a9a-cb2e71ce598b" name="Sanctum Sanctorum ">
+      <property name="Card Number" value="DEF-026" />
+      <property name="Type" value="Special Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Defenders" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] or [Academy] or [Fortress] or [Training Ground] for an [Defenders] character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="aa62cfe4-e16a-4e28-82f9-0ddea9067efa" name="Bullseye ">
+      <property name="Card Number" value="DEF-027" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy][Academy]: Wound a face-up supporting character. Cold-Blooded Killer Level Up (3) - When Bullseye KOs an enemy character, he gains an XP." />
+      <property name="Health" value="5" />
+   </card>   
+<card id="454c8c8f-71dd-46fe-bafd-28dfb7a7f073" name="Bullseye ">
+      <property name="Card Number" value="DEF-028" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy][Academy]: Wound a face-up supporting character. Lovely Night for a Murder Main [Training Ground][Training Ground][Training Ground]." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="14dc40de-7ef9-4c9e-8dda-34870b39dd06" name="Kingpin ">
+      <property name="Card Number" value="DEF-029" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Fortress]: Reveal the top five cards of your deck. Put a location there into your hand and the rest onto the bottom of your deck in any order. Level Up (5) - When a location appears on your side Kingpin gains an XP." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="653084b2-50e9-49f3-86da-62040101fb07" name="Kingpin ">
+      <property name="Card Number" value="DEF-030" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="7" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Build [Fortress]: Reveal the top five cards of your deck. Put a location there into your hand and the rest onto the bottom of your deck in any order. The Kingpin of Crime Main [Laboratory] or [Academy] or [Fortress] or [Training Ground]: Put a +1/+1 counter on a character. You may use this power any number of times on your turn." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="899f5e78-d431-4225-b996-8213a328519b" name="Venom ">
+      <property name="Card Number" value="DEF-031" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Recovery [Laboratory]: If Venom recovered this turn, put two +1/+1 counters on him. Growing Bond Level Up (5) - Whenever Venom gains one or more +1/+1 counters, he gains an XP." />
+      <property name="Health" value="6" />
+   </card>
+   <card id="1eb8f794-b217-4b38-a949-de3d8fb8c018" name="Venom ">
+      <property name="Card Number" value="DEF-032" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="6" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Recovery [Laboratory]: If Venom recovered this turn, put two +1/+1 counters on him. Permanent Bond [Any Time] Combat [Fortress]: Venom has Symbiosis until after your next recovery phase. (He can have +1/+1 counters while stunned.)" />
+      <property name="Health" value="6" />
+   </card>
+   <card id="64c30b7c-192f-4b30-be39-ece3005017b8" name="Winter Soldier ">
+      <property name="Card Number" value="DEF-033" />
+      <property name="Type" value="L1 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Combat [Fortress]: If Winter Soldier is in melee combat, he gets +2/+2 this combat. Cryogenic Stasis Level Up (2) - When Winter Soldier stuns a defending enemy character, you may Freeze Winter Soldier. If you do, he gains an XP. (Characters affected by Freeze can't ready on their next turn.)" />
+      <property name="Health" value="5" />
+   </card>
+   <card id="d364a1ee-8f6d-4df6-91b2-c35d7d2110b4" name="Winter Soldier ">
+      <property name="Card Number" value="DEF-034" />
+      <property name="Type" value="L2 Main Character" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="7" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Combat [Fortress]: If Winter Soldier is in melee combat, he gets +2/+2 this combat. Sniper Rifle Main [Training Ground]: Winter Soldier can make solo ranged attacks against protected characters this turn." />
+      <property name="Health" value="5" />
+   </card>
+   <card id="69e14c42-52c4-47ee-a65c-0679ab77789b" name="Carnage ">
+      <property name="Card Number" value="DEF-035" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="1" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When Carnage stuns an enemy character or gets stunned, put a +1/+1 counter on Carnage. Symbosis Carnage can have +1/+1 counters while stunned." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="3ba339c7-3c9b-4911-a1b1-3979686b670d" name="Helmut Zemo ">
+      <property name="Card Number" value="DEF-036" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="1" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="1" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Look at an enemy player's hand and choose a character that doesn't share a team affiliation with that player's main character. That player discards that character." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="c0b2db07-19f3-4dfa-b643-78d8ad08ae5c" name="Electro ">
+      <property name="Card Number" value="DEF-037" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: Stun each enemy character that costs 2 or less. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="a1f4d1b7-5a3b-4bfb-b31b-38030c08d321" name="Mary Walker ">
+      <property name="Card Number" value="DEF-038A" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="2" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="While Mary is attacking, a defender with a -1/-1 counter can't strike back against her. One of a Kind You may only hav one of this card in your deck." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="2c47bf2e-5751-4cb3-a471-3ae194bbdc3a" name="Mary Walker ">
+      <property name="Card Number" value="DEF-038B" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When Mary attacks, put a -1/-1 counter on up to two enemy characters." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="ed4cb3c4-f4b2-48c0-b7e7-b8d0840c7912" name="Mary Walker ">
+      <property name="Card Number" value="DEF-038C" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="While Mary is defending, each attacker with a -1/-1 counter can't strike her. One of a Kind You may only hav one of this card in your deck." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="27ba8a33-02a4-45ec-8973-eee6027fb5c7" name="Mary Walker ">
+      <property name="Card Number" value="DEF-038D" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Mary has all the powers of cards named Mary Walker in your KO pile. One of a Kind You may only have one of this card in your deck." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="1068fde9-6e26-4d86-a199-4c9f13fcd897" name="Rhino ">
+      <property name="Card Number" value="DEF-039" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="2" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Rhino must be in your first attack each turn if able. (It can be a team attack.) Stupid When Rhino attacks, an enemy player may pay an [Academy] to stun Rhino." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="a6fb5173-fc2d-4963-8bf2-2c9d6bd813fc" name="Hellstorm ">
+      <property name="Card Number" value="DEF-040" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="3" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="When Hellstorm gets a powered-up, heal a wound from him." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="f0b74fcd-d993-4e56-94f4-3446c2b0c81f" name="Winter Soldier ">
+      <property name="Card Number" value="DEF-041" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="3" />
+      <property name="ATK" value="3" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: If Winter Soldier is in your back row, ready him and move him to your front row. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="3ba61ded-bcca-4f3c-9a7a-0cb3f425dac3" name="M.O.D.O.K. ">
+      <property name="Card Number" value="DEF-042" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="At the start of your turn, look at the top four cards of your deck. Put two on the bottom of your deck and the other two back on top. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="c864fa78-aae5-4c1c-91be-444f7994c957" name="Venom ">
+      <property name="Card Number" value="DEF-043" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="4" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: Put two +1/+1 counters on Venom. Symbiosis Venom can have +1/+1 while stunned." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="f905e8a5-f78e-43f4-a215-3fb0a71b23ec" name="Bullseye ">
+      <property name="Card Number" value="DEF-044" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="6" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Training Ground]: Remove a +1/+1 counter from Bullseye.  If you do, wound a face-up supporting character." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="ee2d599f-17e9-4e4e-ad3f-47587cfca18f" name="Purple Man ">
+      <property name="Card Number" value="DEF-045" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="5" />
+      <property name="ATK" value="2" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Academy]: Exhaust an enemy supporting character and move it to your back row.  When Purple Man gets stunned or leaves your side, if that character is still on your side, move it to its owner's back row. " />
+      <property name="Health" value="1" />
+   </card>
+   <card id="f3d187c1-624c-4d1e-a18e-ba497dc8c600" name="Baron Mordo ">
+      <property name="Card Number" value="DEF-046" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="8" />
+      <property name="DEF" value="5" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Laboratory]: KO a stunned supporting character." />
+      <property name="Health" value="1" />
+   </card>
+   <card id="6c8e6ee3-cd1d-42e2-ab2b-710fa0337545" name="Kingpin ">
+      <property name="Card Number" value="DEF-047" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="6" />
+      <property name="ATK" value="5" />
+      <property name="DEF" value="9" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main [Fortress]: If there are two or more other [Underworld] characters on your side, Kingpin takes over being your main character, and your current main character becomes a supporting character." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="cb8fd8fd-4e58-4996-971e-3ed90af2339c" name="Blackheart ">
+      <property name="Card Number" value="DEF-048" />
+      <property name="Type" value="Supporting Character" />
+      <property name="Cost" value="7" />
+      <property name="ATK" value="4" />
+      <property name="DEF" value="4" />
+      <property name="Flight" value="1" />
+      <property name="Range" value="1" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Blackheart gets +1/+1 for each Evil character in your KO pile." />
+      <property name="Health" value="2" />
+   </card>
+   <card id="ed7d680a-d43f-4e29-9abd-a3ea85800f68" name="Fair and Balanced ">
+      <property name="Card Number" value="DEF-049" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main: Put a +1/+1 counter on a character and a -1/-1 counter on a character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="f4a65f91-4ac7-41bb-9ca9-869dfab3f175" name="Pain and Suffering ">
+      <property name="Card Number" value="DEF-050" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat: Choose a character to get -0/-2 this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="8e30b115-8930-447e-9b47-dd947f9ddcd7" name="Play Dead ">
+      <property name="Card Number" value="DEF-051" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat: Stun a defending supporting character on your side, but it doesn't get wounded. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="4355ba07-eda2-4763-9b21-b8cd507ef2dd" name="Fisk Tower ">
+      <property name="Card Number" value="DEF-052" />
+      <property name="Type" value="Special Location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="Underworld" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] or [Academy] or [Fortress] or [Training Ground] for an [Underworld] character. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="fb2fb523-c0af-4e02-933a-a5ac63c4d6f5" name="Loyal Soldiers ">
+      <property name="Card Number" value="DEF-053" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Main: Choose a team affiliation. If all characters on your side have that team affiliation, put a +1/+1 counter on each of them." />
+      <property name="Health" value="0" />
+   </card>
+   <card id="2da024ca-9237-4219-aa60-8bd7ec89815a" name="Shock to the System ">
+      <property name="Card Number" value="DEF-054" />
+      <property name="Type" value="Plot Twist" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="Any Turn Combat: Choose an attacker to get -3/-0 this combat. " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="9d5a4cd3-c882-46ae-a8e9-36ee22dd9aed" name="Academy ">
+      <property name="Card Number" value="DEF-055" />
+      <property name="Type" value="Basic location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Academy] " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="bb1a4e89-62f5-452c-81c9-3edce00557c8" name="Fortress ">
+      <property name="Card Number" value="DEF-056" />
+      <property name="Type" value="Basic location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Fortress] " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="7718157f-cf77-4c68-b7fc-511f63704491" name="Laboratory ">
+      <property name="Card Number" value="DEF-057" />
+      <property name="Type" value="Basic location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Laboratory] " />
+      <property name="Health" value="0" />
+   </card>
+   <card id="d415cad7-c809-4383-8ba7-28c5309cc530" name="Training Ground ">
+      <property name="Card Number" value="DEF-058" />
+      <property name="Type" value="Basic location" />
+      <property name="Cost" value="0" />
+      <property name="ATK" value="0" />
+      <property name="DEF" value="0" />
+      <property name="Flight" value="0" />
+      <property name="Range" value="0" />
+      <property name="Team1" value="" />
+      <property name="Team2" value="" />
+      <property name="Rules" value="[Training Ground] " />
+      <property name="Health" value="0" />
+   </card>  
+  </cards>
+</set>
