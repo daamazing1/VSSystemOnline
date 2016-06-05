@@ -1,4 +1,4 @@
-<form>
+<form name="filters" novalidate ng-submit="vm.performQuery()">
   <div class="form-group">
     <label for="cardName">Card Name</label>
     <input type="text" class="form-control" id="cardName" ng-model="vm.query.name" />
@@ -45,16 +45,55 @@
   </div>
   <div class="form-group">
     <label for="cardCost">Card Cost</label>
-    <input type=text" class="form-control" id="cardCost" ng-model="vm.query.cost"/>
+    <div class="row">
+      <div class="col-xs-6">
+        <select class="form-control" ng-model="vm.costOp">
+          <option value="$eq">&#61;</option>
+          <option value="$gt">&gt;</option>
+          <option value="$gte">&gt;&#61;</option>
+          <option value="$lt">&lt;</option>
+          <option value="$lte">&lt;&#61;</option>
+        </select>
+      </div>
+      <div class="col-xs-6">
+        <input type=text" class="form-control" id="cardCost" ng-model="vm.cost" />
+      </div>
+    </div>
   </div>
   <div class="form-group">
     <label for="atk">Attack</label>
-    <input type="text" class="form-control" id="atk" ng-model="vm.query.atk" />
+    <div class="row">
+      <div class="col-xs-6">
+        <select class="form-control" ng-model="vm.atkOp">
+          <option value="$eq">&#61;</option>
+          <option value="$gt">&gt;</option>
+          <option value="$gte">&gt;&#61;</option>
+          <option value="$lt">&lt;</option>
+          <option value="$lte">&lt;&#61;</option>
+        </select>
+      </div>
+      <div class="col-xs-6">
+        <input type="text" class="form-control" id="atk" ng-model="vm.atk" />
+      </div>
+    </div>
   </div>
   <div class="form-group">
     <label for="def">Defense</label>
-    <input type="text" class="form-control" id="def" ng-model="vm.query.def" />
+    <div class="row">
+      <div class="col-xs-6">
+        <select class="form-control" ng-model="vm.defOp">
+          <option value="$eq">&#61;</option>
+          <option value="$gt">&gt;</option>
+          <option value="$gte">&gt;&#61;</option>
+          <option value="$lt">&lt;</option>
+          <option value="$lte">&lt;&#61;</option>
+        </select>
+      </div>
+      <div class="col-xs-6">
+        <input type="text" class="form-control" id="def" ng-model="vm.def" />
+      </div>
+    </div>
   </div>
-  <button type="submit" class="btn btn-primary" ng-click="vm.performQuery()">Search</button>
-  <button type="reset" class="btn btn-default">Reset</button>
+  <button type="submit" class="btn btn-primary">Search</button>
+  <button type="button" class="btn btn-default" ng-click="vm.performReset()">Reset</button>
 </form>
