@@ -4,7 +4,8 @@
   "description": "REST API for VS System 2PCG card database.",
   "main": "app.js",
   "scripts": {
-    "build": "./node_modules/.bin/babel src -d lib"
+    "build": "./node_modules/.bin/babel src -d lib",
+    "start": "node lib/app.js"
   },
   "author": "Alex Diokmedjian",
   "license": "ISC",
