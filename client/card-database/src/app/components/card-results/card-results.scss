@@ -16,3 +16,48 @@
     content: "";
   }
 }
+.card-image{
+  margin-top:15px;
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+  .card-image{
+    width:260px;
+    height: 400px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .card-image{
+    width: 345px;
+    height: 495px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .card-image{
+    width: 345px;
+    height: 495px;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .card-image{
+    width: 345px;
+    height: 495px;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+  .card-image{
+    width: 345px;
+    height: 495px;
+  }
+}
+
+.results-panel{
+  margin-top: 15px;
+}

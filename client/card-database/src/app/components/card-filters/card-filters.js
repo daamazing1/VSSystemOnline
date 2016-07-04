@@ -53,6 +53,11 @@
         }
       });
 
+      if(Object.keys(vm.query).length === 0){
+        vm.noQuery = true;
+        return;
+      }
+
       // now we can query the api for the results
       cardService
         .query(vm.query);

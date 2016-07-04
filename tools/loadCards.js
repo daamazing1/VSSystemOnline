@@ -15,31 +15,31 @@ MongoClient.connect(url, function(err, db){
     else{
         console.log("Connection established to", url);
         parseXML()
-          .then(function(data){
-            //we currently have the data as a single document... need to break
-            //this into a one-to-many relationship between the set and the
-            //cards.
-            var setData = {};
-            setData.name = data.name.trim();
-            setData._id = new ObjectID();//data.id;
-            setData.cards = _.map(data.cards,"_id");
-            insertSet(db, setData)
-              .then(function(){
-                // Add the set_id property to the cards
-                var cardData = _.map(data.cards, function(card){
-                  return _.extend({}, card, { set_id:data.id });
+          .then(function(sets){
+            console.log("Returning with sets");
+            console.dir(sets);
+            sets.forEach(function(data){
+              //we currently have the data as a single document... need to break
+              //this into a one-to-many relationship between the set and the
+              //cards.
+              var setData = {};
+              setData.name = data.name.trim();
+              setData._id = data.id;
+              setData.cards = _.map(data.cards,"_id");
+              insertSet(db, setData)
+                .then(function(){
+                    // Add the set_id property to the cards
+                    var cardData = _.map(data.cards, function(card){
+                      return _.extend({}, card, { set_id:data.id });
+                    });
+                    // insert the cards for the set
+                    insertCards(db, cardData)
+                      .then(function(){
+                        db.close();
+                        console.log("complete");
+                      });
                 });
-                insertCards(db, cardData).then(function(){
-                  db.close();
-                  console.log("complete");
-                })
-              });
-          })
-          .then(function(data){
-            console.log(data);
-          })
-          .catch(function(error){
-            console.log(error);
+            });
           });
     };
 });
@@ -66,11 +66,39 @@ function insertCards(db, data){
   });
 }
 
-
 function parseXML(){
+  return new Promise(function(fulfill, reject){
+    // read xml files from the sets sub-folder, for each one parse out the set
+    // and card information
+    fs.readdir(
+      path.join(__dirname, "sets"),
+      function(err, fileList){
+        // if there is an error return the promise with an error
+        if(err) reject(err);
+
+        // loop through the files found
+        var readList = [];
+        fileList.forEach(function(fileName){
+          if(path.extname(fileName) === ".xml"){
+            readList.push(readSet(fileName));
+          }
+        });
+        Promise
+          .all(readList)
+          .then(function(data){
+            fulfill(data);
+          })
+          .catch(function(err){
+            reject(err);
+          });
+      });
+  });
+}
+
+function readSet(fileName){
   var parser = new xml2js.Parser();
   return new Promise(function(fulfill, reject){
-    fs.readFile(path.join(__dirname, "set3.xml"), function(err,data){
+    fs.readFile(path.join(__dirname, "sets", fileName), function(err,data){
       if(err) reject(err);
       else{
         parser.parseString(data, function(err, result){
@@ -79,7 +107,7 @@ function parseXML(){
             var cleanedSet = result.set['$'];
             cleanedSet.cards = _.map(result.set.cards[0].card, function(card){
               var newCard = {
-                _id: new ObjectID(),//card['$'].id,
+                _id: card['$'].id,
                 name: card['$'].name.trim()
               };
               //find the card type first, we need this information to determine

@@ -1,1 +1,13 @@
-<div id="cardResults" ui-grid="vm.gridOptions" class="card-results-grid" ui-grid-expandable></div>
+<div ng-show="vm.showGrid" class="panel panel-default results-panel">
+  <div class="panel-heading">
+    There are {{vm.data.length}} result(s)
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4" ng-repeat="card in vm.data">
+        <img class="card-image center-block" ng-src="/assets/images/{{card._id}}.jpg" />
+      </div>
+      <div class="clearfix visible-sm-block visible-md-block"></div>
+    </div>
+  </div>
+</div>

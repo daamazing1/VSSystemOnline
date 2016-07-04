@@ -6,7 +6,6 @@
   function CardService($q, $http) {
     var apiBase = 'http://localhost:8080/';
     var _results = [];
-
     return {
       query: function(criteria) {
         var deferred = $q.defer();

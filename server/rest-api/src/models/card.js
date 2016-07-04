@@ -2,6 +2,9 @@ import mongoose from 'mongoose';
 import Promise from 'bluebird';
 
 var cardSchema = new mongoose.Schema({
+  _id: {
+    type: String
+  },
   name: {
     type: String
   },
