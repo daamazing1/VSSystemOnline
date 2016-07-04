@@ -4,7 +4,7 @@
     .module('card')
     .factory('cardService', ['$q', '$http', CardService]);
   function CardService($q, $http) {
-    var apiBase = 'http://localhost:8080/';
+    var apiBase = 'http://cards.topdeckplayer.com/api/v1/';
     var _results = [];
     return {
       query: function(criteria) {
