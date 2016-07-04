@@ -19,20 +19,23 @@
     <!-- endbuild -->
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">VS System 2PCG</a>
-        </div>
+    <div class="container">
+      <div class="row">
+        <header>
+          <div class="row">
+            <hgroup class="col-md-8">
+              <h1>
+                <a href="http://topdeckplayer.com">
+                  <img src="/assets/images/logosm-300x231.png" alt="top Deck Player" />
+                </a>
+              </h1>
+            </hgroup>
+          </div>
+          <div class="row nav-main">
+            <nav id="navigation" class="col-md-12"></nav>
+          </div>
+        </header>
       </div>
-    </nav>
-    <div class="container-fluid">
       <div class="row">
         <div class="col-xs-12">
           <div ui-view="card-filter"></div>
@@ -44,6 +47,8 @@
         </div>
       </div>
     </div>
+    <footer class="container-fluid footer-wrap">
+    </footer>
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="../bower_components/angular/angular.js"></script>

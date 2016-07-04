@@ -2,5 +2,25 @@
 // endinjector
 
 body {
-  padding-top: 70px;
+  background: #252831 url(/assets/images/bg.png) no-repeat top center;
+  font: 13px/18px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #c0c0c0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+}
+
+.nav-main {
+    background: url(/assets/images/bg_nav.png) repeat;
+    height: 60px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.4);
+}
+
+
+.footer-wrap {
+    margin-top: 15px;
+    background: #1e2026 url(/assets/images/bg_footer.png) no-repeat bottom center;
+    border-top: solid 1px #30333c;
+    padding: 50px 0 0 0;
 }
