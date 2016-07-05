@@ -17,10 +17,49 @@ body {
     box-shadow: 0 1px 1px rgba(0,0,0,0.4);
 }
 
-
 .footer-wrap {
     margin-top: 15px;
     background: #1e2026 url(/assets/images/bg_footer.png) no-repeat bottom center;
     border-top: solid 1px #30333c;
     padding: 50px 0 0 0;
+}
+
+.nav {
+    font-family: "Lato", sans-serif;
+    margin-bottom: 0;
+}
+
+.nav li {
+    float: left;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+.nav ul{
+    list-style: none outside;
+}
+
+.nav li a:hover {
+    color: #fff;
+    text-shadow: 0 0 2px rgba(255,255,255,0.2);
+    background-color: transparent;
+}
+
+.nav li a {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    padding: 23px 18px;
+    background: url(/assets/images/bg_nav_divider.png) no-repeat right;
+    text-shadow: 0 -1px rgba(0,0,0,0.2);
+}
+
+a:hover, a:focus {
+    color: #ffd200;
+}
+
+a, a:visited {
+    color: #ffba00;
+    text-decoration: none;
+    outline: 0;
 }
