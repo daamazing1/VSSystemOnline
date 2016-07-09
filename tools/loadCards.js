@@ -5,7 +5,8 @@ var path = require('path');
 var _ = require('lodash');
 var ObjectID = require("mongodb").ObjectID;
 
-var url = "mongodb://54.152.95.76:27017/vs_system_2pcg";
+//var url = "mongodb://54.152.95.76:27017/vs_system_2pcg";
+var url = "mongodb://localhost:27017/vs_system_2pcg";
 var MongoClient = mongodb.MongoClient;
 MongoClient.connect(url, function(err, db){
     "use strict";
